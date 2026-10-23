@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "bom-ref": "/home/user/modelaudit-data/granite/.cache/huggingface/trees/93f3f6a8938ee922b784cf4e5b4203cd3428df8f.json",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4d81c5018bd9374b21ab9bbddf6b1439c521b82cc4f6a5a60f005e5f49e84f94"
+        }
+      ],
+      "name": "93f3f6a8938ee922b784cf4e5b4203cd3428df8f.json",
+      "properties": [
+        {
+          "name": "ml:is_dataset",
+          "value": "true"
+        },
+        {
+          "name": "risk_score",
+          "value": "0"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "5141"
+        }
+      ],
+      "type": "data"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/granite/README.md",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1f43efacac28527c2392735115a1f14f9bc736bedc6f7982f41513e81041899f"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "README.md",
+      "properties": [
+        {
+          "name": "risk_score",
+          "value": "1"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "472"
+        }
+      ],
+      "type": "data"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/granite/.cache/huggingface/.gitignore",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+        }
+      ],
+      "name": ".gitignore",
+      "properties": [
+        {
+          "name": "risk_score",
+          "value": "0"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "1"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/granite/granite-4.2-8b-Q4_K_M.gguf",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "16a9369d0805f80b7377d25d87f937a90c05dc04ad79173a52001e42c9aab311"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "granite-4.2-8b-Q4_K_M.gguf",
+      "properties": [
+        {
+          "name": "ml:confidence_score",
+          "value": "2"
+        },
+        {
+          "name": "risk_score",
+          "value": "0"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "5347917952"
+        }
+      ],
+      "type": "machine-learning-model"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "/home/user/modelaudit-data/granite/.cache/huggingface/.gitignore"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/granite/.cache/huggingface/trees/93f3f6a8938ee922b784cf4e5b4203cd3428df8f.json"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/granite/README.md"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/granite/granite-4.2-8b-Q4_K_M.gguf"
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-10-22T06:38:28.399888+00:00"
+  },
+  "serialNumber": "urn:uuid:a5f08079-c67e-4988-92c7-97241c421b5d",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6"
+}

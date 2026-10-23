@@ -1,0 +1,6968 @@
+{
+  "bytes_scanned": 5680522464,
+  "issues": [],
+  "checks": [
+    {
+      "name": "Path Exists",
+      "status": "passed",
+      "message": "Path exists",
+      "location": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf"
+      },
+      "timestamp": 1792649810.7263799
+    },
+    {
+      "name": "Path Readable",
+      "status": "passed",
+      "message": "Path is readable",
+      "location": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf"
+      },
+      "timestamp": 1792649810.7263923
+    },
+    {
+      "name": "File Type Validation",
+      "status": "passed",
+      "message": "File type validation passed",
+      "location": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf",
+      "details": {},
+      "timestamp": 1792649810.7264044
+    },
+    {
+      "name": "File Integrity Hash",
+      "status": "passed",
+      "message": "File integrity hashes calculated",
+      "location": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf",
+      "details": {
+        "md5": "d3842bd7fba0ff2e6771a89272c5b862",
+        "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+        "sha512": "f52856b91bf19a646ee1d1d67323c96587e0838a1fbfc74b273dd4e0711cfbec83fbe2e16e3156d5a6aca9bfe8e47214b1211f6c2d0e25eae126215e9a572926",
+        "file_size": 5680522464
+      },
+      "timestamp": 1792649822.0704284
+    },
+    {
+      "name": "Jinja2 SSTI Analysis",
+      "status": "passed",
+      "message": "No template injection patterns detected",
+      "location": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf",
+      "details": {
+        "templates_analyzed": 1
+      },
+      "timestamp": 1792649822.509499
+    }
+  ],
+  "files_scanned": 1,
+  "assets": [
+    {
+      "path": "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf",
+      "type": "gguf",
+      "size": 5680522464,
+      "tensors": [
+        "output.weight",
+        "output_norm.weight",
+        "token_embd.weight",
+        "blk.0.attn_gate.weight",
+        "blk.0.attn_norm.weight",
+        "blk.0.attn_qkv.weight",
+        "blk.0.ffn_down.weight",
+        "blk.0.ffn_gate.weight",
+        "blk.0.ffn_up.weight",
+        "blk.0.post_attention_norm.weight",
+        "blk.0.ssm_a",
+        "blk.0.ssm_alpha.weight",
+        "blk.0.ssm_beta.weight",
+        "blk.0.ssm_conv1d.weight",
+        "blk.0.ssm_dt.bias",
+        "blk.0.ssm_norm.weight",
+        "blk.0.ssm_out.weight",
+        "blk.1.attn_gate.weight",
+        "blk.1.attn_norm.weight",
+        "blk.1.attn_qkv.weight",
+        "blk.1.ffn_down.weight",
+        "blk.1.ffn_gate.weight",
+        "blk.1.ffn_up.weight",
+        "blk.1.post_attention_norm.weight",
+        "blk.1.ssm_a",
+        "blk.1.ssm_alpha.weight",
+        "blk.1.ssm_beta.weight",
+        "blk.1.ssm_conv1d.weight",
+        "blk.1.ssm_dt.bias",
+        "blk.1.ssm_norm.weight",
+        "blk.1.ssm_out.weight",
+        "blk.2.attn_gate.weight",
+        "blk.2.attn_norm.weight",
+        "blk.2.attn_qkv.weight",
+        "blk.2.ffn_down.weight",
+        "blk.2.ffn_gate.weight",
+        "blk.2.ffn_up.weight",
+        "blk.2.post_attention_norm.weight",
+        "blk.2.ssm_a",
+        "blk.2.ssm_alpha.weight",
+        "blk.2.ssm_beta.weight",
+        "blk.2.ssm_conv1d.weight",
+        "blk.2.ssm_dt.bias",
+        "blk.2.ssm_norm.weight",
+        "blk.2.ssm_out.weight",
+        "blk.3.attn_k.weight",
+        "blk.3.attn_k_norm.weight",
+        "blk.3.attn_norm.weight",
+        "blk.3.attn_output.weight",
+        "blk.3.attn_q.weight",
+        "blk.3.attn_q_norm.weight",
+        "blk.3.attn_v.weight",
+        "blk.3.ffn_down.weight",
+        "blk.3.ffn_gate.weight",
+        "blk.3.ffn_up.weight",
+        "blk.3.post_attention_norm.weight",
+        "blk.4.attn_gate.weight",
+        "blk.4.attn_norm.weight",
+        "blk.4.attn_qkv.weight",
+        "blk.4.ffn_down.weight",
+        "blk.4.ffn_gate.weight",
+        "blk.4.ffn_up.weight",
+        "blk.4.post_attention_norm.weight",
+        "blk.4.ssm_a",
+        "blk.4.ssm_alpha.weight",
+        "blk.4.ssm_beta.weight",
+        "blk.4.ssm_conv1d.weight",
+        "blk.4.ssm_dt.bias",
+        "blk.4.ssm_norm.weight",
+        "blk.4.ssm_out.weight",
+        "blk.5.attn_gate.weight",
+        "blk.5.attn_norm.weight",
+        "blk.5.attn_qkv.weight",
+        "blk.5.ffn_down.weight",
+        "blk.5.ffn_gate.weight",
+        "blk.5.ffn_up.weight",
+        "blk.5.post_attention_norm.weight",
+        "blk.5.ssm_a",
+        "blk.5.ssm_alpha.weight",
+        "blk.5.ssm_beta.weight",
+        "blk.5.ssm_conv1d.weight",
+        "blk.5.ssm_dt.bias",
+        "blk.5.ssm_norm.weight",
+        "blk.5.ssm_out.weight",
+        "blk.6.attn_gate.weight",
+        "blk.6.attn_norm.weight",
+        "blk.6.attn_qkv.weight",
+        "blk.6.ffn_down.weight",
+        "blk.6.ffn_gate.weight",
+        "blk.6.ffn_up.weight",
+        "blk.6.post_attention_norm.weight",
+        "blk.6.ssm_a",
+        "blk.6.ssm_alpha.weight",
+        "blk.6.ssm_beta.weight",
+        "blk.6.ssm_conv1d.weight",
+        "blk.6.ssm_dt.bias",
+        "blk.6.ssm_norm.weight",
+        "blk.6.ssm_out.weight",
+        "blk.7.attn_k.weight",
+        "blk.7.attn_k_norm.weight",
+        "blk.7.attn_norm.weight",
+        "blk.7.attn_output.weight",
+        "blk.7.attn_q.weight",
+        "blk.7.attn_q_norm.weight",
+        "blk.7.attn_v.weight",
+        "blk.7.ffn_down.weight",
+        "blk.7.ffn_gate.weight",
+        "blk.7.ffn_up.weight",
+        "blk.7.post_attention_norm.weight",
+        "blk.8.attn_gate.weight",
+        "blk.8.attn_norm.weight",
+        "blk.8.attn_qkv.weight",
+        "blk.8.ffn_down.weight",
+        "blk.8.ffn_gate.weight",
+        "blk.8.ffn_up.weight",
+        "blk.8.post_attention_norm.weight",
+        "blk.8.ssm_a",
+        "blk.8.ssm_alpha.weight",
+        "blk.8.ssm_beta.weight",
+        "blk.8.ssm_conv1d.weight",
+        "blk.8.ssm_dt.bias",
+        "blk.8.ssm_norm.weight",
+        "blk.8.ssm_out.weight",
+        "blk.9.attn_gate.weight",
+        "blk.9.attn_norm.weight",
+        "blk.9.attn_qkv.weight",
+        "blk.9.ffn_down.weight",
+        "blk.9.ffn_gate.weight",
+        "blk.9.ffn_up.weight",
+        "blk.9.post_attention_norm.weight",
+        "blk.9.ssm_a",
+        "blk.9.ssm_alpha.weight",
+        "blk.9.ssm_beta.weight",
+        "blk.9.ssm_conv1d.weight",
+        "blk.9.ssm_dt.bias",
+        "blk.9.ssm_norm.weight",
+        "blk.9.ssm_out.weight",
+        "blk.10.attn_gate.weight",
+        "blk.10.attn_norm.weight",
+        "blk.10.attn_qkv.weight",
+        "blk.10.ffn_down.weight",
+        "blk.10.ffn_gate.weight",
+        "blk.10.ffn_up.weight",
+        "blk.10.post_attention_norm.weight",
+        "blk.10.ssm_a",
+        "blk.10.ssm_alpha.weight",
+        "blk.10.ssm_beta.weight",
+        "blk.10.ssm_conv1d.weight",
+        "blk.10.ssm_dt.bias",
+        "blk.10.ssm_norm.weight",
+        "blk.10.ssm_out.weight",
+        "blk.11.attn_k.weight",
+        "blk.11.attn_k_norm.weight",
+        "blk.11.attn_norm.weight",
+        "blk.11.attn_output.weight",
+        "blk.11.attn_q.weight",
+        "blk.11.attn_q_norm.weight",
+        "blk.11.attn_v.weight",
+        "blk.11.ffn_down.weight",
+        "blk.11.ffn_gate.weight",
+        "blk.11.ffn_up.weight",
+        "blk.11.post_attention_norm.weight",
+        "blk.12.attn_gate.weight",
+        "blk.12.attn_norm.weight",
+        "blk.12.attn_qkv.weight",
+        "blk.12.ffn_down.weight",
+        "blk.12.ffn_gate.weight",
+        "blk.12.ffn_up.weight",
+        "blk.12.post_attention_norm.weight",
+        "blk.12.ssm_a",
+        "blk.12.ssm_alpha.weight",
+        "blk.12.ssm_beta.weight",
+        "blk.12.ssm_conv1d.weight",
+        "blk.12.ssm_dt.bias",
+        "blk.12.ssm_norm.weight",
+        "blk.12.ssm_out.weight",
+        "blk.13.attn_gate.weight",
+        "blk.13.attn_norm.weight",
+        "blk.13.attn_qkv.weight",
+        "blk.13.ffn_down.weight",
+        "blk.13.ffn_gate.weight",
+        "blk.13.ffn_up.weight",
+        "blk.13.post_attention_norm.weight",
+        "blk.13.ssm_a",
+        "blk.13.ssm_alpha.weight",
+        "blk.13.ssm_beta.weight",
+        "blk.13.ssm_conv1d.weight",
+        "blk.13.ssm_dt.bias",
+        "blk.13.ssm_norm.weight",
+        "blk.13.ssm_out.weight",
+        "blk.14.attn_gate.weight",
+        "blk.14.attn_norm.weight",
+        "blk.14.attn_qkv.weight",
+        "blk.14.ffn_down.weight",
+        "blk.14.ffn_gate.weight",
+        "blk.14.ffn_up.weight",
+        "blk.14.post_attention_norm.weight",
+        "blk.14.ssm_a",
+        "blk.14.ssm_alpha.weight",
+        "blk.14.ssm_beta.weight",
+        "blk.14.ssm_conv1d.weight",
+        "blk.14.ssm_dt.bias",
+        "blk.14.ssm_norm.weight",
+        "blk.14.ssm_out.weight",
+        "blk.15.attn_k.weight",
+        "blk.15.attn_k_norm.weight",
+        "blk.15.attn_norm.weight",
+        "blk.15.attn_output.weight",
+        "blk.15.attn_q.weight",
+        "blk.15.attn_q_norm.weight",
+        "blk.15.attn_v.weight",
+        "blk.15.ffn_down.weight",
+        "blk.15.ffn_gate.weight",
+        "blk.15.ffn_up.weight",
+        "blk.15.post_attention_norm.weight",
+        "blk.16.attn_gate.weight",
+        "blk.16.attn_norm.weight",
+        "blk.16.attn_qkv.weight",
+        "blk.16.ffn_down.weight",
+        "blk.16.ffn_gate.weight",
+        "blk.16.ffn_up.weight",
+        "blk.16.post_attention_norm.weight",
+        "blk.16.ssm_a",
+        "blk.16.ssm_alpha.weight",
+        "blk.16.ssm_beta.weight",
+        "blk.16.ssm_conv1d.weight",
+        "blk.16.ssm_dt.bias",
+        "blk.16.ssm_norm.weight",
+        "blk.16.ssm_out.weight",
+        "blk.17.attn_gate.weight",
+        "blk.17.attn_norm.weight",
+        "blk.17.attn_qkv.weight",
+        "blk.17.ffn_down.weight",
+        "blk.17.ffn_gate.weight",
+        "blk.17.ffn_up.weight",
+        "blk.17.post_attention_norm.weight",
+        "blk.17.ssm_a",
+        "blk.17.ssm_alpha.weight",
+        "blk.17.ssm_beta.weight",
+        "blk.17.ssm_conv1d.weight",
+        "blk.17.ssm_dt.bias",
+        "blk.17.ssm_norm.weight",
+        "blk.17.ssm_out.weight",
+        "blk.18.attn_gate.weight",
+        "blk.18.attn_norm.weight",
+        "blk.18.attn_qkv.weight",
+        "blk.18.ffn_down.weight",
+        "blk.18.ffn_gate.weight",
+        "blk.18.ffn_up.weight",
+        "blk.18.post_attention_norm.weight",
+        "blk.18.ssm_a",
+        "blk.18.ssm_alpha.weight",
+        "blk.18.ssm_beta.weight",
+        "blk.18.ssm_conv1d.weight",
+        "blk.18.ssm_dt.bias",
+        "blk.18.ssm_norm.weight",
+        "blk.18.ssm_out.weight",
+        "blk.19.attn_k.weight",
+        "blk.19.attn_k_norm.weight",
+        "blk.19.attn_norm.weight",
+        "blk.19.attn_output.weight",
+        "blk.19.attn_q.weight",
+        "blk.19.attn_q_norm.weight",
+        "blk.19.attn_v.weight",
+        "blk.19.ffn_down.weight",
+        "blk.19.ffn_gate.weight",
+        "blk.19.ffn_up.weight",
+        "blk.19.post_attention_norm.weight",
+        "blk.20.attn_gate.weight",
+        "blk.20.attn_norm.weight",
+        "blk.20.attn_qkv.weight",
+        "blk.20.ffn_down.weight",
+        "blk.20.ffn_gate.weight",
+        "blk.20.ffn_up.weight",
+        "blk.20.post_attention_norm.weight",
+        "blk.20.ssm_a",
+        "blk.20.ssm_alpha.weight",
+        "blk.20.ssm_beta.weight",
+        "blk.20.ssm_conv1d.weight",
+        "blk.20.ssm_dt.bias",
+        "blk.20.ssm_norm.weight",
+        "blk.20.ssm_out.weight",
+        "blk.21.attn_gate.weight",
+        "blk.21.attn_norm.weight",
+        "blk.21.attn_qkv.weight",
+        "blk.21.ffn_down.weight",
+        "blk.21.ffn_gate.weight",
+        "blk.21.ffn_up.weight",
+        "blk.21.post_attention_norm.weight",
+        "blk.21.ssm_a",
+        "blk.21.ssm_alpha.weight",
+        "blk.21.ssm_beta.weight",
+        "blk.21.ssm_conv1d.weight",
+        "blk.21.ssm_dt.bias",
+        "blk.21.ssm_norm.weight",
+        "blk.21.ssm_out.weight",
+        "blk.22.attn_gate.weight",
+        "blk.22.attn_norm.weight",
+        "blk.22.attn_qkv.weight",
+        "blk.22.ffn_down.weight",
+        "blk.22.ffn_gate.weight",
+        "blk.22.ffn_up.weight",
+        "blk.22.post_attention_norm.weight",
+        "blk.22.ssm_a",
+        "blk.22.ssm_alpha.weight",
+        "blk.22.ssm_beta.weight",
+        "blk.22.ssm_conv1d.weight",
+        "blk.22.ssm_dt.bias",
+        "blk.22.ssm_norm.weight",
+        "blk.22.ssm_out.weight",
+        "blk.23.attn_k.weight",
+        "blk.23.attn_k_norm.weight",
+        "blk.23.attn_norm.weight",
+        "blk.23.attn_output.weight",
+        "blk.23.attn_q.weight",
+        "blk.23.attn_q_norm.weight",
+        "blk.23.attn_v.weight",
+        "blk.23.ffn_down.weight",
+        "blk.23.ffn_gate.weight",
+        "blk.23.ffn_up.weight",
+        "blk.23.post_attention_norm.weight",
+        "blk.24.attn_gate.weight",
+        "blk.24.attn_norm.weight",
+        "blk.24.attn_qkv.weight",
+        "blk.24.ffn_down.weight",
+        "blk.24.ffn_gate.weight",
+        "blk.24.ffn_up.weight",
+        "blk.24.post_attention_norm.weight",
+        "blk.24.ssm_a",
+        "blk.24.ssm_alpha.weight",
+        "blk.24.ssm_beta.weight",
+        "blk.24.ssm_conv1d.weight",
+        "blk.24.ssm_dt.bias",
+        "blk.24.ssm_norm.weight",
+        "blk.24.ssm_out.weight",
+        "blk.25.attn_gate.weight",
+        "blk.25.attn_norm.weight",
+        "blk.25.attn_qkv.weight",
+        "blk.25.ffn_down.weight",
+        "blk.25.ffn_gate.weight",
+        "blk.25.ffn_up.weight",
+        "blk.25.post_attention_norm.weight",
+        "blk.25.ssm_a",
+        "blk.25.ssm_alpha.weight",
+        "blk.25.ssm_beta.weight",
+        "blk.25.ssm_conv1d.weight",
+        "blk.25.ssm_dt.bias",
+        "blk.25.ssm_norm.weight",
+        "blk.25.ssm_out.weight",
+        "blk.26.attn_gate.weight",
+        "blk.26.attn_norm.weight",
+        "blk.26.attn_qkv.weight",
+        "blk.26.ffn_down.weight",
+        "blk.26.ffn_gate.weight",
+        "blk.26.ffn_up.weight",
+        "blk.26.post_attention_norm.weight",
+        "blk.26.ssm_a",
+        "blk.26.ssm_alpha.weight",
+        "blk.26.ssm_beta.weight",
+        "blk.26.ssm_conv1d.weight",
+        "blk.26.ssm_dt.bias",
+        "blk.26.ssm_norm.weight",
+        "blk.26.ssm_out.weight",
+        "blk.27.attn_k.weight",
+        "blk.27.attn_k_norm.weight",
+        "blk.27.attn_norm.weight",
+        "blk.27.attn_output.weight",
+        "blk.27.attn_q.weight",
+        "blk.27.attn_q_norm.weight",
+        "blk.27.attn_v.weight",
+        "blk.27.ffn_down.weight",
+        "blk.27.ffn_gate.weight",
+        "blk.27.ffn_up.weight",
+        "blk.27.post_attention_norm.weight",
+        "blk.28.attn_gate.weight",
+        "blk.28.attn_norm.weight",
+        "blk.28.attn_qkv.weight",
+        "blk.28.ffn_down.weight",
+        "blk.28.ffn_gate.weight",
+        "blk.28.ffn_up.weight",
+        "blk.28.post_attention_norm.weight",
+        "blk.28.ssm_a",
+        "blk.28.ssm_alpha.weight",
+        "blk.28.ssm_beta.weight",
+        "blk.28.ssm_conv1d.weight",
+        "blk.28.ssm_dt.bias",
+        "blk.28.ssm_norm.weight",
+        "blk.28.ssm_out.weight",
+        "blk.29.attn_gate.weight",
+        "blk.29.attn_norm.weight",
+        "blk.29.attn_qkv.weight",
+        "blk.29.ffn_down.weight",
+        "blk.29.ffn_gate.weight",
+        "blk.29.ffn_up.weight",
+        "blk.29.post_attention_norm.weight",
+        "blk.29.ssm_a",
+        "blk.29.ssm_alpha.weight",
+        "blk.29.ssm_beta.weight",
+        "blk.29.ssm_conv1d.weight",
+        "blk.29.ssm_dt.bias",
+        "blk.29.ssm_norm.weight",
+        "blk.29.ssm_out.weight",
+        "blk.30.attn_gate.weight",
+        "blk.30.attn_norm.weight",
+        "blk.30.attn_qkv.weight",
+        "blk.30.ffn_down.weight",
+        "blk.30.ffn_gate.weight",
+        "blk.30.ffn_up.weight",
+        "blk.30.post_attention_norm.weight",
+        "blk.30.ssm_a",
+        "blk.30.ssm_alpha.weight",
+        "blk.30.ssm_beta.weight",
+        "blk.30.ssm_conv1d.weight",
+        "blk.30.ssm_dt.bias",
+        "blk.30.ssm_norm.weight",
+        "blk.30.ssm_out.weight",
+        "blk.31.attn_k.weight",
+        "blk.31.attn_k_norm.weight",
+        "blk.31.attn_norm.weight",
+        "blk.31.attn_output.weight",
+        "blk.31.attn_q.weight",
+        "blk.31.attn_q_norm.weight",
+        "blk.31.attn_v.weight",
+        "blk.31.ffn_down.weight",
+        "blk.31.ffn_gate.weight",
+        "blk.31.ffn_up.weight",
+        "blk.31.post_attention_norm.weight"
+      ]
+    }
+  ],
+  "has_errors": false,
+  "scanner_names": [
+    "gguf"
+  ],
+  "file_metadata": {
+    "/home/user/modelaudit-data/Qwen3.5-9B-Q4_K_M.gguf": {
+      "file_size": 5680522464,
+      "file_hashes": {
+        "md5": "d3842bd7fba0ff2e6771a89272c5b862",
+        "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+        "sha512": "f52856b91bf19a646ee1d1d67323c96587e0838a1fbfc74b273dd4e0711cfbec83fbe2e16e3156d5a6aca9bfe8e47214b1211f6c2d0e25eae126215e9a572926"
+      },
+      "member_file_hashes": {},
+      "ml_context": {
+        "frameworks": {},
+        "overall_confidence": 0.0,
+        "is_ml_content": false,
+        "detected_patterns": [],
+        "optimization_hints": [],
+        "file_type": "gguf",
+        "is_tokenizer": false,
+        "confidence": 2
+      },
+      "license_info": [
+        {
+          "spdx_id": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "confidence": 0.8,
+          "source": "file_header",
+          "commercial_allowed": true
+        }
+      ],
+      "copyright_notices": [],
+      "license_files_nearby": [],
+      "is_dataset": false,
+      "is_model": false,
+      "risk_score": 0.0,
+      "scan_timestamp": 1792649822.5426354,
+      "scanner_dependency_ids": [
+        "gguf",
+        "jinja2_template"
+      ],
+      "format": "gguf",
+      "version": 3,
+      "n_tensors": 427,
+      "n_kv": 46,
+      "metadata_arrays_truncated": true,
+      "metadata_array_truncation": {
+        "tokenizer.ggml.tokens": {
+          "original_count": 248320,
+          "reported_count": 1024,
+          "truncated_count": 247296,
+          "max_reported_items": 1024
+        },
+        "tokenizer.ggml.token_type": {
+          "original_count": 248320,
+          "reported_count": 1024,
+          "truncated_count": 247296,
+          "max_reported_items": 1024
+        },
+        "tokenizer.ggml.merges": {
+          "original_count": 247587,
+          "reported_count": 1024,
+          "truncated_count": 246563,
+          "max_reported_items": 1024
+        }
+      },
+      "max_reported_tokenizer_metadata_array_items": 1024,
+      "metadata": {
+        "general.architecture": "qwen35",
+        "general.type": "model",
+        "general.name": "Qwen3.5-9B",
+        "general.basename": "Qwen3.5-9B",
+        "general.quantized_by": "Unsloth",
+        "general.size_label": "9B",
+        "general.license": "apache-2.0",
+        "general.license.link": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
+        "general.repo_url": "https://huggingface.co/unsloth",
+        "general.base_model.count": 1,
+        "general.base_model.0.name": "Qwen3.5 9B",
+        "general.base_model.0.organization": "Qwen",
+        "general.base_model.0.repo_url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+        "general.tags": [
+          "unsloth",
+          "image-text-to-text"
+        ],
+        "qwen35.block_count": 32,
+        "qwen35.context_length": 262144,
+        "qwen35.embedding_length": 4096,
+        "qwen35.feed_forward_length": 12288,
+        "qwen35.attention.head_count": 16,
+        "qwen35.attention.head_count_kv": 4,
+        "qwen35.rope.dimension_sections": [
+          11,
+          11,
+          10,
+          0
+        ],
+        "qwen35.rope.freq_base": 10000000.0,
+        "qwen35.attention.layer_norm_rms_epsilon": 9.999999974752427e-07,
+        "qwen35.attention.key_length": 256,
+        "qwen35.attention.value_length": 256,
+        "qwen35.ssm.conv_kernel": 4,
+        "qwen35.ssm.state_size": 128,
+        "qwen35.ssm.group_count": 16,
+        "qwen35.ssm.time_step_rank": 32,
+        "qwen35.ssm.inner_size": 4096,
+        "qwen35.full_attention_interval": 4,
+        "qwen35.rope.dimension_count": 64,
+        "tokenizer.ggml.model": "gpt2",
+        "tokenizer.ggml.pre": "qwen35",
+        "tokenizer.ggml.tokens": [
+          "!",
+          "\"",
+          "#",
+          "$",
+          "%",
+          "&",
+          "'",
+          "(",
+          ")",
+          "*",
+          "+",
+          ",",
+          "-",
+          ".",
+          "/",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          ":",
+          ";",
+          "<",
+          "=",
+          ">",
+          "?",
+          "@",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z",
+          "[",
+          "\\",
+          "]",
+          "^",
+          "_",
+          "`",
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m",
+          "n",
+          "o",
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "x",
+          "y",
+          "z",
+          "{",
+          "|",
+          "}",
+          "~",
+          "\u00a1",
+          "\u00a2",
+          "\u00a3",
+          "\u00a4",
+          "\u00a5",
+          "\u00a6",
+          "\u00a7",
+          "\u00a8",
+          "\u00a9",
+          "\u00aa",
+          "\u00ab",
+          "\u00ac",
+          "\u00ae",
+          "\u00af",
+          "\u00b0",
+          "\u00b1",
+          "\u00b2",
+          "\u00b3",
+          "\u00b4",
+          "\u00b5",
+          "\u00b6",
+          "\u00b7",
+          "\u00b8",
+          "\u00b9",
+          "\u00ba",
+          "\u00bb",
+          "\u00bc",
+          "\u00bd",
+          "\u00be",
+          "\u00bf",
+          "\u00c0",
+          "\u00c1",
+          "\u00c2",
+          "\u00c3",
+          "\u00c4",
+          "\u00c5",
+          "\u00c6",
+          "\u00c7",
+          "\u00c8",
+          "\u00c9",
+          "\u00ca",
+          "\u00cb",
+          "\u00cc",
+          "\u00cd",
+          "\u00ce",
+          "\u00cf",
+          "\u00d0",
+          "\u00d1",
+          "\u00d2",
+          "\u00d3",
+          "\u00d4",
+          "\u00d5",
+          "\u00d6",
+          "\u00d7",
+          "\u00d8",
+          "\u00d9",
+          "\u00da",
+          "\u00db",
+          "\u00dc",
+          "\u00dd",
+          "\u00de",
+          "\u00df",
+          "\u00e0",
+          "\u00e1",
+          "\u00e2",
+          "\u00e3",
+          "\u00e4",
+          "\u00e5",
+          "\u00e6",
+          "\u00e7",
+          "\u00e8",
+          "\u00e9",
+          "\u00ea",
+          "\u00eb",
+          "\u00ec",
+          "\u00ed",
+          "\u00ee",
+          "\u00ef",
+          "\u00f0",
+          "\u00f1",
+          "\u00f2",
+          "\u00f3",
+          "\u00f4",
+          "\u00f5",
+          "\u00f6",
+          "\u00f7",
+          "\u00f8",
+          "\u00f9",
+          "\u00fa",
+          "\u00fb",
+          "\u00fc",
+          "\u00fd",
+          "\u00fe",
+          "\u00ff",
+          "\u0100",
+          "\u0101",
+          "\u0102",
+          "\u0103",
+          "\u0104",
+          "\u0105",
+          "\u0106",
+          "\u0107",
+          "\u0108",
+          "\u0109",
+          "\u010a",
+          "\u010b",
+          "\u010c",
+          "\u010d",
+          "\u010e",
+          "\u010f",
+          "\u0110",
+          "\u0111",
+          "\u0112",
+          "\u0113",
+          "\u0114",
+          "\u0115",
+          "\u0116",
+          "\u0117",
+          "\u0118",
+          "\u0119",
+          "\u011a",
+          "\u011b",
+          "\u011c",
+          "\u011d",
+          "\u011e",
+          "\u011f",
+          "\u0120",
+          "\u0121",
+          "\u0122",
+          "\u0123",
+          "\u0124",
+          "\u0125",
+          "\u0126",
+          "\u0127",
+          "\u0128",
+          "\u0129",
+          "\u012a",
+          "\u012b",
+          "\u012c",
+          "\u012d",
+          "\u012e",
+          "\u012f",
+          "\u0130",
+          "\u0131",
+          "\u0132",
+          "\u0133",
+          "\u0134",
+          "\u0135",
+          "\u0136",
+          "\u0137",
+          "\u0138",
+          "\u0139",
+          "\u013a",
+          "\u013b",
+          "\u013c",
+          "\u013d",
+          "\u013e",
+          "\u013f",
+          "\u0140",
+          "\u0141",
+          "\u0142",
+          "\u0143",
+          "\u0120\u0120",
+          "\u0120\u0120\u0120\u0120",
+          "in",
+          "\u0120t",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "er",
+          "\u0120\u0120\u0120",
+          "on",
+          "\u0120a",
+          "re",
+          "at",
+          "st",
+          "en",
+          "or",
+          "\u0120th",
+          "\u010a\u010a",
+          "\u0120c",
+          "le",
+          "\u0120s",
+          "it",
+          "an",
+          "ar",
+          "al",
+          "\u0120the",
+          "\u0120p",
+          "\u0120f",
+          "ou",
+          "\u0120=",
+          "is",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "ing",
+          "es",
+          "\u0120w",
+          "ion",
+          "ed",
+          "ic",
+          "\u0120b",
+          "\u0120d",
+          "et",
+          "\u0120m",
+          "\u0120o",
+          "\u0109\u0109",
+          "ro",
+          "as",
+          "el",
+          "ct",
+          "nd",
+          "\u0120in",
+          "\u0120h",
+          "ent",
+          "id",
+          "\u0120n",
+          "am",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "\u0120to",
+          "\u0120re",
+          "--",
+          "\u0120{",
+          "\u0120of",
+          "om",
+          "im",
+          "\u010d\u010a",
+          "\u0120(",
+          "il",
+          "//",
+          "\u0120and",
+          "ur",
+          "se",
+          "\u0120l",
+          "ex",
+          "\u0120S",
+          "ad",
+          "\u0120\"",
+          "ch",
+          "ut",
+          "if",
+          "**",
+          "\u0120}",
+          "em",
+          "ol",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "th",
+          "\u0120g",
+          "ig",
+          "iv",
+          "ce",
+          "od",
+          "\u0120v",
+          "ate",
+          "\u0120T",
+          "ag",
+          "ay",
+          "\u0120*",
+          "ot",
+          "us",
+          "\u0120C",
+          "\u0120st",
+          "\u0120I",
+          "un",
+          "ul",
+          "ue",
+          "\u0120A",
+          "ow",
+          "\u0120'",
+          "ew",
+          "\u0120<",
+          "ation",
+          "()",
+          "\u0120for",
+          "ab",
+          "ort",
+          "um",
+          "ame",
+          "\u0120is",
+          "pe",
+          "tr",
+          "ck",
+          "\u00e2\u0122",
+          "\u0120y",
+          "ist",
+          "----",
+          "he",
+          "\u0120e",
+          "lo",
+          "\u0120M",
+          "\u0120be",
+          "ers",
+          "\u0120on",
+          "\u0120con",
+          "ap",
+          "ub",
+          "\u0120P",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "ass",
+          "int",
+          "ly",
+          "urn",
+          "\u0120$",
+          "av",
+          "port",
+          "ir",
+          "->",
+          "nt",
+          "ction",
+          "end",
+          "\u0120de",
+          "ith",
+          "out",
+          "turn",
+          "our",
+          "\u0120\u0120\u0120\u0120\u0120",
+          "lic",
+          "res",
+          "pt",
+          "==",
+          "\u0120this",
+          "\u0120wh",
+          "\u0120if",
+          "\u0120D",
+          "ver",
+          "age",
+          "\u0120B",
+          "ht",
+          "ext",
+          "=\"",
+          "\u0120that",
+          "****",
+          "\u0120R",
+          "\u0120it",
+          "ess",
+          "\u0120F",
+          "\u0120r",
+          "os",
+          "and",
+          "\u0120as",
+          "ect",
+          "ke",
+          "rom",
+          "\u0120//",
+          "con",
+          "\u0120L",
+          "(\"",
+          "qu",
+          "lass",
+          "\u0120with",
+          "iz",
+          "de",
+          "\u0120N",
+          "\u0120al",
+          "op",
+          "up",
+          "get",
+          "ile",
+          "\u0120an",
+          "ata",
+          "ore",
+          "ri",
+          "\u0120pro",
+          "\u0109\u0109\u0109\u0109",
+          "ter",
+          "ain",
+          "\u0120W",
+          "\u0120E",
+          "\u0120com",
+          "\u0120return",
+          "art",
+          "\u0120H",
+          "ack",
+          "import",
+          "ublic",
+          "\u0120or",
+          "est",
+          "ment",
+          "\u0120G",
+          "able",
+          "\u0120-",
+          "ine",
+          "ill",
+          "ind",
+          "ere",
+          "::",
+          "ity",
+          "\u0120+",
+          "\u0120tr",
+          "elf",
+          "ight",
+          "('",
+          "orm",
+          "ult",
+          "str",
+          "..",
+          "\",",
+          "\u0120you",
+          "ype",
+          "pl",
+          "\u0120new",
+          "\u0120j",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "\u0120from",
+          "\u0120ex",
+          "\u0120O",
+          "ld",
+          "\u0120[",
+          "oc",
+          "\u0120se",
+          "\u0120le",
+          "--------",
+          ".s",
+          "',",
+          "ant",
+          "\u0120at",
+          "ase",
+          ".c",
+          "\u0120ch",
+          "</",
+          "ave",
+          "ang",
+          "\u0120are",
+          "\u0120int",
+          "\u00e2\u0122\u013b",
+          "_t",
+          "ert",
+          "ial",
+          "act",
+          "ive",
+          "ode",
+          "ost",
+          "\u0120class",
+          "\u0120not",
+          "og",
+          "ord",
+          "alue",
+          "all",
+          "ff",
+          "ont",
+          "ime",
+          "are",
+          "\u0120U",
+          "\u0120pr",
+          "\u0120:",
+          "ies",
+          "ize",
+          "ure",
+          "\u0120by",
+          "ire",
+          ".p",
+          "\u0120sh",
+          "ice",
+          "ast",
+          "ption",
+          "tring",
+          "ok",
+          "__",
+          "cl",
+          "##",
+          "\u0120he",
+          "ard",
+          ").",
+          "\u0120@",
+          "iew",
+          "\u0109\u0109\u0109",
+          "\u0120was",
+          "ip",
+          "this",
+          "\u0120u",
+          "\u0120The",
+          "ide",
+          "ace",
+          "ib",
+          "ac",
+          "rou",
+          "\u0120we",
+          "ject",
+          "\u0120public",
+          "ak",
+          "ve",
+          "ath",
+          "oid",
+          "\u0120=>",
+          "ust",
+          "que",
+          "\u0120res",
+          "))",
+          "'s",
+          "\u0120k",
+          "ans",
+          "yst",
+          "unction",
+          "********",
+          "\u0120i",
+          "\u0120us",
+          "pp",
+          "one",
+          "ail",
+          "====",
+          "name",
+          "\u0120str",
+          "\u0120/",
+          "\u0120&",
+          "ach",
+          "div",
+          "ystem",
+          "ell",
+          "\u0120have",
+          "err",
+          "ould",
+          "ull",
+          "pon",
+          "\u0120J",
+          "_p",
+          "\u0120==",
+          "ign",
+          "St",
+          "\u0120pl",
+          "form",
+          "put",
+          "ount",
+          "dd",
+          "ite",
+          "\u0120get",
+          "rr",
+          "ome",
+          "\u0120\u00e2\u0122",
+          "aram",
+          "cc",
+          "\u0120*/",
+          "ER",
+          "In",
+          "les",
+          "_s",
+          "ong",
+          "ie",
+          "\u0120can",
+          "\u0120V",
+          "erv",
+          "pr",
+          "\u0120un",
+          "row",
+          "ber",
+          "\u0120do",
+          "ll",
+          "\u0120el",
+          "\u0120self",
+          "ated",
+          "ary",
+          "\u0120.",
+          "']",
+          "ud",
+          "\u0120en",
+          "\u0120Th",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "te",
+          "_c",
+          "uct",
+          "\u0120ab",
+          "ork",
+          ".get",
+          "\u0120#",
+          "aw",
+          "ress",
+          "ob",
+          "Name",
+          "app",
+          "['",
+          "\u0120all",
+          "ory",
+          "ition",
+          "ance",
+          "ear",
+          "\u0120cont",
+          "vent",
+          "ia",
+          "\u0120will",
+          "IN",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "return",
+          "\u0120</",
+          "data",
+          "Re",
+          "ple",
+          "ild",
+          "ther",
+          "\u0120your",
+          "($",
+          "\u0120out",
+          "),",
+          "\u0120has",
+          "String",
+          "so",
+          "\u0120up",
+          "ax",
+          "\u0120def",
+          "\u0120bo",
+          "ge",
+          "alse",
+          "ON",
+          "per",
+          "ich",
+          "\u0120but",
+          "\u0120\u010a",
+          "\u0120_",
+          "_m",
+          "add",
+          "quest",
+          "odel",
+          "self",
+          "ery",
+          "ft",
+          "ens",
+          "////",
+          "ake",
+          ".C",
+          "\u0120go",
+          "\u0120function",
+          "\u0120K",
+          "ivate",
+          "\u0120im",
+          "\u0120const",
+          ".t",
+          "\u0120void",
+          "\u0120set",
+          "\u0120System",
+          "cri",
+          "li",
+          "\u0109if",
+          ".m",
+          "ally",
+          "set",
+          "ep",
+          "\u00e2\u0122\u013bs",
+          "bo",
+          "def",
+          "\u0120me",
+          "\u0120!",
+          "atch",
+          "\">",
+          "ec",
+          "\u0120In",
+          "ph",
+          "\u0120|",
+          "_f",
+          "\u0120var",
+          "ence",
+          "Id",
+          "ree",
+          "ink",
+          "lect",
+          "ug",
+          "eth",
+          "\u0120else",
+          "----------------",
+          "cont",
+          "\u0120so",
+          "atic",
+          "\u0120lo",
+          "pro",
+          "ton",
+          "ss",
+          "own",
+          "abel",
+          "oint",
+          "ous",
+          "eld",
+          "ST",
+          "The",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "RE",
+          "\":",
+          "olor",
+          "tp",
+          "eg",
+          "key",
+          "ude",
+          "\u0120St",
+          "ound",
+          "\u0120ar",
+          "ener",
+          "ser",
+          "bject",
+          "essage",
+          "fer",
+          "\u0120more",
+          "ations",
+          "ents",
+          "\u0120his",
+          "\u0120they",
+          ".S",
+          "\u0120Y",
+          "use",
+          "ne",
+          "ish",
+          "old",
+          "_d",
+          "io",
+          "ield",
+          "\u0120per",
+          "Cont",
+          "ings",
+          "####",
+          "\u0120data",
+          "\u0120sa",
+          "ef",
+          "fo",
+          "\u0120one",
+          "eng",
+          "\u0120dis",
+          "AT",
+          "\u0120name",
+          "\u0120true",
+          "val",
+          "led",
+          ".f",
+          "\u0120ne",
+          "\u0120end",
+          ".T",
+          "cre",
+          "ark",
+          "log",
+          "Ex",
+          "error",
+          "_id",
+          "urre",
+          "ange",
+          "\u0120null",
+          "rray",
+          "\u0120my",
+          "pan",
+          "ict",
+          "ator",
+          "View",
+          "List",
+          "\u0109return",
+          "\u00e2\u0122\u013f",
+          "\u0120pre",
+          "\u0120x",
+          "clude",
+          "arg",
+          "ov",
+          ".h",
+          "\u0120>",
+          "\u0120their",
+          "')",
+          "irst",
+          "ick",
+          "gh",
+          "LE",
+          "OR",
+          "\u0120private",
+          "tem",
+          "\u010d\u010a\u010d\u010a",
+          "user",
+          "\u0120)",
+          "com",
+          ".A",
+          "\u0120id",
+          "read",
+          "\u0120who",
+          "_b",
+          "\u0120time",
+          "\u0120man",
+          "ry",
+          "========",
+          "roup",
+          "rop",
+          "public",
+          "vel",
+          "umber",
+          "ble",
+          "\u0120which",
+          "****************",
+          "\u0120any",
+          "\u0120false",
+          "we",
+          "\u0120value",
+          "\u0120li",
+          "\")",
+          "nder",
+          "gr",
+          "\u0120no",
+          "param",
+          "fig",
+          ".com",
+          "\u0120app",
+          "_l",
+          "ions",
+          ".D",
+          "\u0120Ch",
+          "\u0120about",
+          "\u0120add",
+          "\u0120su",
+          "\u0120string",
+          "ID",
+          "\u0120over",
+          "string",
+          ".l",
+          "ource",
+          "_C",
+          "\u0120qu",
+          "\u0120String",
+          "ca",
+          "SE",
+          "\u0120ro",
+          "sh",
+          "ual",
+          "Type",
+          "son",
+          "new",
+          "ern",
+          "\u0120ag",
+          "AR",
+          "].",
+          "\u0120?",
+          "ical",
+          "\u0120des",
+          "uth",
+          "ix",
+          "ays",
+          "\u0120type",
+          "'t",
+          "ault",
+          "\u0120inter",
+          "var",
+          ".b",
+          "\u0120part",
+          ".d",
+          "urrent",
+          "IT",
+          "EN",
+          "enc",
+          "(f",
+          "ra",
+          "value",
+          "cho",
+          "utton",
+          "ose",
+          "\u0120!=",
+          "ater",
+          "\u00c3\u00a9",
+          "reate",
+          "oll",
+          "pos",
+          "yle",
+          "ng",
+          "AL",
+          "using",
+          "ames",
+          "ates",
+          "ely",
+          "\u0120work",
+          "\u0120em",
+          "inal",
+          "\u0120sp",
+          "\u0120when",
+          ".set",
+          "\u0120\u0120\u0120\u0120\u0120\u0120",
+          "to",
+          "quire",
+          "indow",
+          "lement",
+          "pect",
+          "ash",
+          "[i",
+          "\u0120use",
+          ".F",
+          "pec",
+          "\u0120ad",
+          "ove",
+          "ception",
+          "ength",
+          "include",
+          "ader",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "atus",
+          "Th",
+          "itle",
+          "rit",
+          "void",
+          "().",
+          "\u0120off",
+          "\u0120other",
+          "\u0120&&",
+          "ms",
+          "\u0120been",
+          "\u0120te",
+          "ml",
+          "co",
+          "nc",
+          "ervice",
+          "\u0120%",
+          "ann",
+          "ade",
+          "\u010a\u010a\u010a\u010a",
+          "lock",
+          "const",
+          "ponse",
+          "\u0120sup",
+          "++",
+          "date",
+          "\u0120acc",
+          "\u0120had",
+          "\u0120bu",
+          "\u0120Re",
+          "\u0120were",
+          "\u0120file",
+          "\u0120would",
+          "\u0120\u00e2\u0122\u013e",
+          "ven",
+          "iss",
+          "\u0120our",
+          "class",
+          "raw",
+          "\u0120year",
+          "Data",
+          "\u0120val",
+          "\u0120some",
+          "fter",
+          "ys",
+          "\u0120///",
+          "round",
+          "view",
+          "\u0120pe",
+          "\u0120there",
+          "\u0120said",
+          "du",
+          "of",
+          "line",
+          "/*",
+          "duct"
+        ],
+        "tokenizer.ggml.token_type": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "tokenizer.ggml.merges": [
+          "\u0120 \u0120",
+          "\u0120\u0120 \u0120\u0120",
+          "i n",
+          "\u0120 t",
+          "\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120",
+          "e r",
+          "\u0120\u0120 \u0120",
+          "o n",
+          "\u0120 a",
+          "r e",
+          "a t",
+          "s t",
+          "e n",
+          "o r",
+          "\u0120t h",
+          "\u010a \u010a",
+          "\u0120 c",
+          "l e",
+          "\u0120 s",
+          "i t",
+          "a n",
+          "a r",
+          "a l",
+          "\u0120th e",
+          "\u0120 p",
+          "\u0120 f",
+          "o u",
+          "\u0120 =",
+          "i s",
+          "\u0120\u0120\u0120\u0120 \u0120\u0120\u0120",
+          "in g",
+          "e s",
+          "\u0120 w",
+          "i on",
+          "e d",
+          "i c",
+          "\u0120 b",
+          "\u0120 d",
+          "e t",
+          "\u0120 m",
+          "\u0120 o",
+          "\u0109 \u0109",
+          "r o",
+          "a s",
+          "e l",
+          "c t",
+          "n d",
+          "\u0120 in",
+          "\u0120 h",
+          "en t",
+          "i d",
+          "\u0120 n",
+          "a m",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120",
+          "\u0120t o",
+          "\u0120 re",
+          "- -",
+          "\u0120 {",
+          "\u0120o f",
+          "o m",
+          "i m",
+          "\u010d \u010a",
+          "\u0120 (",
+          "i l",
+          "/ /",
+          "\u0120a nd",
+          "u r",
+          "s e",
+          "\u0120 l",
+          "e x",
+          "\u0120 S",
+          "a d",
+          "\u0120 \"",
+          "c h",
+          "u t",
+          "i f",
+          "* *",
+          "\u0120 }",
+          "e m",
+          "o l",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "t h",
+          "\u0120 g",
+          "i g",
+          "i v",
+          "c e",
+          "o d",
+          "\u0120 v",
+          "at e",
+          "\u0120 T",
+          "a g",
+          "a y",
+          "\u0120 *",
+          "o t",
+          "u s",
+          "\u0120 C",
+          "\u0120 st",
+          "\u0120 I",
+          "u n",
+          "u l",
+          "u e",
+          "\u0120 A",
+          "o w",
+          "\u0120 '",
+          "e w",
+          "\u0120 <",
+          "at ion",
+          "( )",
+          "\u0120f or",
+          "a b",
+          "or t",
+          "u m",
+          "am e",
+          "\u0120 is",
+          "p e",
+          "t r",
+          "c k",
+          "\u00e2 \u0122",
+          "\u0120 y",
+          "i st",
+          "-- --",
+          "h e",
+          "\u0120 e",
+          "l o",
+          "\u0120 M",
+          "\u0120b e",
+          "er s",
+          "\u0120 on",
+          "\u0120c on",
+          "a p",
+          "u b",
+          "\u0120 P",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "as s",
+          "in t",
+          "l y",
+          "ur n",
+          "\u0120 $",
+          "a v",
+          "p ort",
+          "i r",
+          "- >",
+          "n t",
+          "ct ion",
+          "en d",
+          "\u0120d e",
+          "it h",
+          "ou t",
+          "t urn",
+          "ou r",
+          "\u0120\u0120\u0120\u0120 \u0120",
+          "l ic",
+          "re s",
+          "p t",
+          "= =",
+          "\u0120th is",
+          "\u0120w h",
+          "\u0120 if",
+          "\u0120 D",
+          "v er",
+          "ag e",
+          "\u0120 B",
+          "h t",
+          "ex t",
+          "= \"",
+          "\u0120th at",
+          "** **",
+          "\u0120 R",
+          "\u0120 it",
+          "es s",
+          "\u0120 F",
+          "\u0120 r",
+          "o s",
+          "an d",
+          "\u0120a s",
+          "e ct",
+          "k e",
+          "ro m",
+          "\u0120 //",
+          "c on",
+          "\u0120 L",
+          "( \"",
+          "q u",
+          "l ass",
+          "\u0120w ith",
+          "i z",
+          "d e",
+          "\u0120 N",
+          "\u0120a l",
+          "o p",
+          "u p",
+          "g et",
+          "i le",
+          "\u0120a n",
+          "at a",
+          "o re",
+          "r i",
+          "\u0120p ro",
+          "\u0109\u0109 \u0109\u0109",
+          "t er",
+          "a in",
+          "\u0120 W",
+          "\u0120 E",
+          "\u0120c om",
+          "\u0120re turn",
+          "ar t",
+          "\u0120 H",
+          "a ck",
+          "im port",
+          "ub lic",
+          "\u0120 or",
+          "e st",
+          "m ent",
+          "\u0120 G",
+          "ab le",
+          "\u0120 -",
+          "in e",
+          "il l",
+          "in d",
+          "er e",
+          ": :",
+          "it y",
+          "\u0120 +",
+          "\u0120t r",
+          "el f",
+          "ig ht",
+          "( '",
+          "or m",
+          "ul t",
+          "st r",
+          ". .",
+          "\" ,",
+          "\u0120y ou",
+          "y pe",
+          "p l",
+          "\u0120n ew",
+          "\u0120 j",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "\u0120f rom",
+          "\u0120 ex",
+          "\u0120 O",
+          "l d",
+          "\u0120 [",
+          "o c",
+          "\u0120s e",
+          "\u0120 le",
+          "---- ----",
+          ". s",
+          "' ,",
+          "an t",
+          "\u0120a t",
+          "as e",
+          ". c",
+          "\u0120c h",
+          "< /",
+          "av e",
+          "an g",
+          "\u0120a re",
+          "\u0120in t",
+          "\u00e2\u0122 \u013b",
+          "_ t",
+          "er t",
+          "i al",
+          "a ct",
+          "iv e",
+          "od e",
+          "o st",
+          "\u0120c lass",
+          "\u0120n ot",
+          "o g",
+          "or d",
+          "al ue",
+          "al l",
+          "f f",
+          "on t",
+          "im e",
+          "a re",
+          "\u0120 U",
+          "\u0120p r",
+          "\u0120 :",
+          "i es",
+          "iz e",
+          "u re",
+          "\u0120b y",
+          "i re",
+          ". p",
+          "\u0120s h",
+          "ic e",
+          "a st",
+          "pt ion",
+          "tr ing",
+          "o k",
+          "_ _",
+          "c l",
+          "# #",
+          "\u0120h e",
+          "ar d",
+          ") .",
+          "\u0120 @",
+          "i ew",
+          "\u0109\u0109 \u0109",
+          "\u0120w as",
+          "i p",
+          "th is",
+          "\u0120 u",
+          "\u0120T he",
+          "id e",
+          "a ce",
+          "i b",
+          "a c",
+          "r ou",
+          "\u0120w e",
+          "j ect",
+          "\u0120p ublic",
+          "a k",
+          "v e",
+          "at h",
+          "o id",
+          "\u0120= >",
+          "u st",
+          "q ue",
+          "\u0120re s",
+          ") )",
+          "' s",
+          "\u0120 k",
+          "an s",
+          "y st",
+          "un ction",
+          "**** ****",
+          "\u0120 i",
+          "\u0120 us",
+          "p p",
+          "on e",
+          "a il",
+          "== ==",
+          "n ame",
+          "\u0120st r",
+          "\u0120 /",
+          "\u0120 &",
+          "a ch",
+          "d iv",
+          "yst em",
+          "el l",
+          "\u0120h ave",
+          "er r",
+          "ou ld",
+          "ul l",
+          "p on",
+          "\u0120 J",
+          "_ p",
+          "\u0120= =",
+          "ig n",
+          "S t",
+          "\u0120p l",
+          "f orm",
+          "p ut",
+          "ou nt",
+          "d d",
+          "it e",
+          "\u0120g et",
+          "r r",
+          "om e",
+          "\u0120 \u00e2\u0122",
+          "ar am",
+          "c c",
+          "\u0120* /",
+          "E R",
+          "I n",
+          "le s",
+          "_ s",
+          "on g",
+          "i e",
+          "\u0120c an",
+          "\u0120 V",
+          "er v",
+          "p r",
+          "\u0120 un",
+          "ro w",
+          "b er",
+          "\u0120d o",
+          "l l",
+          "\u0120 el",
+          "\u0120s elf",
+          "at ed",
+          "ar y",
+          "\u0120 .",
+          "' ]",
+          "u d",
+          "\u0120 en",
+          "\u0120T h",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "t e",
+          "_ c",
+          "u ct",
+          "\u0120a b",
+          "or k",
+          ". get",
+          "\u0120 #",
+          "a w",
+          "res s",
+          "o b",
+          "N ame",
+          "ap p",
+          "[ '",
+          "\u0120al l",
+          "or y",
+          "it ion",
+          "an ce",
+          "e ar",
+          "\u0120con t",
+          "v ent",
+          "i a",
+          "\u0120w ill",
+          "I N",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120",
+          "re turn",
+          "\u0120< /",
+          "d ata",
+          "R e",
+          "p le",
+          "il d",
+          "th er",
+          "\u0120y our",
+          "( $",
+          "\u0120 out",
+          ") ,",
+          "\u0120h as",
+          "S tring",
+          "s o",
+          "\u0120 up",
+          "a x",
+          "\u0120de f",
+          "\u0120b o",
+          "g e",
+          "al se",
+          "O N",
+          "p er",
+          "ic h",
+          "\u0120b ut",
+          "\u0120 \u010a",
+          "\u0120 _",
+          "_ m",
+          "ad d",
+          "que st",
+          "od el",
+          "s elf",
+          "er y",
+          "f t",
+          "en s",
+          "// //",
+          "a ke",
+          ". C",
+          "\u0120g o",
+          "\u0120f unction",
+          "\u0120 K",
+          "iv ate",
+          "\u0120 im",
+          "\u0120con st",
+          ". t",
+          "\u0120v oid",
+          "\u0120s et",
+          "\u0120S ystem",
+          "c ri",
+          "l i",
+          "\u0109 if",
+          ". m",
+          "al ly",
+          "s et",
+          "e p",
+          "\u00e2\u0122\u013b s",
+          "b o",
+          "de f",
+          "\u0120m e",
+          "\u0120 !",
+          "at ch",
+          "\" >",
+          "e c",
+          "\u0120I n",
+          "p h",
+          "\u0120 |",
+          "_ f",
+          "\u0120v ar",
+          "en ce",
+          "I d",
+          "re e",
+          "in k",
+          "le ct",
+          "u g",
+          "et h",
+          "\u0120el se",
+          "-------- --------",
+          "con t",
+          "\u0120s o",
+          "at ic",
+          "\u0120l o",
+          "p ro",
+          "t on",
+          "s s",
+          "ow n",
+          "ab el",
+          "o int",
+          "ou s",
+          "el d",
+          "S T",
+          "T he",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "R E",
+          "\" :",
+          "ol or",
+          "t p",
+          "e g",
+          "ke y",
+          "u de",
+          "\u0120S t",
+          "ou nd",
+          "\u0120a r",
+          "en er",
+          "s er",
+          "b ject",
+          "ess age",
+          "f er",
+          "\u0120m ore",
+          "ation s",
+          "ent s",
+          "\u0120h is",
+          "\u0120the y",
+          ". S",
+          "\u0120 Y",
+          "u se",
+          "n e",
+          "is h",
+          "ol d",
+          "_ d",
+          "i o",
+          "i eld",
+          "\u0120p er",
+          "C ont",
+          "ing s",
+          "## ##",
+          "\u0120d ata",
+          "\u0120s a",
+          "e f",
+          "f o",
+          "\u0120on e",
+          "en g",
+          "\u0120d is",
+          "A T",
+          "\u0120n ame",
+          "\u0120tr ue",
+          "v al",
+          "le d",
+          ". f",
+          "\u0120n e",
+          "\u0120 end",
+          ". T",
+          "c re",
+          "ar k",
+          "lo g",
+          "E x",
+          "err or",
+          "_ id",
+          "ur re",
+          "ang e",
+          "\u0120n ull",
+          "rr ay",
+          "\u0120m y",
+          "p an",
+          "ic t",
+          "at or",
+          "V iew",
+          "L ist",
+          "\u0109 return",
+          "\u00e2\u0122 \u013f",
+          "\u0120p re",
+          "\u0120 x",
+          "cl ude",
+          "ar g",
+          "o v",
+          ". h",
+          "\u0120 >",
+          "\u0120the ir",
+          "' )",
+          "ir st",
+          "ic k",
+          "g h",
+          "L E",
+          "O R",
+          "\u0120pr ivate",
+          "t em",
+          "\u010d\u010a \u010d\u010a",
+          "us er",
+          "\u0120 )",
+          "c om",
+          ". A",
+          "\u0120 id",
+          "re ad",
+          "\u0120wh o",
+          "_ b",
+          "\u0120t ime",
+          "\u0120m an",
+          "r y",
+          "==== ====",
+          "rou p",
+          "ro p",
+          "p ublic",
+          "v el",
+          "um ber",
+          "b le",
+          "\u0120wh ich",
+          "******** ********",
+          "\u0120an y",
+          "\u0120f alse",
+          "w e",
+          "\u0120v alue",
+          "\u0120l i",
+          "\" )",
+          "nd er",
+          "g r",
+          "\u0120n o",
+          "p aram",
+          "f ig",
+          ".c om",
+          "\u0120a pp",
+          "_ l",
+          "ion s",
+          ". D",
+          "\u0120C h",
+          "\u0120ab out",
+          "\u0120a dd",
+          "\u0120s u",
+          "\u0120str ing",
+          "I D",
+          "\u0120o ver",
+          "str ing",
+          ". l",
+          "our ce",
+          "_ C",
+          "\u0120 qu",
+          "\u0120S tring",
+          "c a",
+          "S E",
+          "\u0120 ro",
+          "s h",
+          "u al",
+          "T ype",
+          "s on",
+          "n ew",
+          "er n",
+          "\u0120a g",
+          "A R",
+          "] .",
+          "\u0120 ?",
+          "ic al",
+          "\u0120d es",
+          "ut h",
+          "i x",
+          "ay s",
+          "\u0120t ype",
+          "' t",
+          "a ult",
+          "\u0120in ter",
+          "v ar",
+          ". b",
+          "\u0120p art",
+          ". d",
+          "urre nt",
+          "I T",
+          "E N",
+          "en c",
+          "( f",
+          "r a",
+          "v alue",
+          "ch o",
+          "ut ton",
+          "o se",
+          "\u0120! =",
+          "at er",
+          "\u00c3 \u00a9",
+          "re ate",
+          "ol l",
+          "p os",
+          "y le",
+          "n g",
+          "A L",
+          "us ing",
+          "am es",
+          "at es",
+          "el y",
+          "\u0120w ork",
+          "\u0120 em",
+          "in al",
+          "\u0120s p",
+          "\u0120wh en",
+          ".s et",
+          "\u0120\u0120\u0120\u0120 \u0120\u0120",
+          "t o",
+          "qu ire",
+          "ind ow",
+          "le ment",
+          "pe ct",
+          "as h",
+          "[ i",
+          "\u0120u se",
+          ". F",
+          "pe c",
+          "\u0120a d",
+          "o ve",
+          "ce ption",
+          "eng th",
+          "in clude",
+          "ad er",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120",
+          "at us",
+          "T h",
+          "it le",
+          "r it",
+          "v oid",
+          "() .",
+          "\u0120of f",
+          "\u0120o ther",
+          "\u0120& &",
+          "m s",
+          "\u0120be en",
+          "\u0120t e",
+          "m l",
+          "c o",
+          "n c",
+          "erv ice",
+          "\u0120 %",
+          "an n",
+          "ad e",
+          "\u010a\u010a \u010a\u010a",
+          "lo ck",
+          "con st",
+          "pon se",
+          "\u0120s up",
+          "+ +",
+          "d ate",
+          "\u0120a cc",
+          "\u0120h ad",
+          "\u0120b u",
+          "\u0120R e",
+          "\u0120w ere",
+          "\u0120f ile",
+          "\u0120w ould",
+          "\u0120\u00e2\u0122 \u013e",
+          "v en",
+          "is s",
+          "\u0120 our",
+          "c lass",
+          "r aw",
+          "\u0120y ear",
+          "D ata",
+          "\u0120v al",
+          "\u0120s ome",
+          "f ter",
+          "y s",
+          "\u0120// /",
+          "rou nd",
+          "v iew",
+          "\u0120p e",
+          "\u0120th ere",
+          "\u0120sa id",
+          "d u",
+          "o f",
+          "l ine",
+          "/ *",
+          "d uct",
+          "\u0120h er",
+          "\u0120\u0120\u0120\u0120\u0120\u0120\u0120\u0120 \u0120\u0120\u0120\u0120\u0120",
+          "R es",
+          "\u0120c o",
+          "\u0120com m",
+          "is e",
+          "m in",
+          "\u0120\u0120\u0120\u0120 \u010a",
+          "# include",
+          "eth od",
+          ". P",
+          "ut e",
+          "\u0120as s",
+          "I nt",
+          "as k",
+          "lo c",
+          "\u0120li ke",
+          "od y",
+          "\u0120le t",
+          "lo ad",
+          "\u0120a m",
+          "ro l",
+          "\u0120g r",
+          "y p",
+          "\u0120al so",
+          "\u0120I t",
+          "ur l",
+          "if ic",
+          "or s",
+          "_ P",
+          "_ n",
+          "ig h",
+          "\u0120th an",
+          "C om",
+          "A N",
+          "U L",
+          "at ing",
+          "\u0120Th is",
+          "re f",
+          "_ S",
+          "\u0120st atic",
+          "ro ll",
+          "\u0120j ust",
+          "\u0120res ult",
+          "i an",
+          "id th",
+          "\u0120the m",
+          "d er",
+          "re ak",
+          "C on",
+          ": //",
+          "u le",
+          ".. .",
+          "ar ch",
+          "em ent",
+          "\u0120< <",
+          "us h",
+          "en se",
+          "ar r",
+          "\u0120int o",
+          "c ess",
+          "am p",
+          "i ed",
+          "um ent",
+          "\u0120 \\",
+          "] ,",
+          "w o",
+          "al s",
+          "\u0120wh at",
+          "an c",
+          "V alue",
+          "= '",
+          "ol um",
+          "\u0120p os",
+          "ag es",
+          "ay er",
+          "\u0120s c",
+          "u es",
+          "_ T",
+          "\u0120l ist",
+          "( s",
+          "\u0120c ase",
+          "C h",
+          "\u0109\u0109\u0109\u0109 \u0109",
+          "//// ////",
+          "pon ent",
+          "\u0120 z",
+          "\u0120k n",
+          "le t",
+          "D E",
+          "re d",
+          "\u0120f e",
+          "\u0120 ,",
+          "( t",
+          "\u0120f irst",
+          "w ord",
+          "\u0120 import",
+          "\u0120a ct",
+          "\u0120ch ar",
+          "C T",
+          "\u0120T r",
+          "op le",
+          "= {",
+          "\u0109 f",
+          "i ent",
+          "c ent",
+          ". j",
+          "le ction",
+          "\u0120on ly",
+          "\u0120pr int",
+          "m er",
+          ". W",
+          "o ck",
+          "\u0120 --",
+          "T ext",
+          "\u0120o p",
+          "an k",
+          "\u0120it s",
+          "\u0120b ack",
+          "[ \"",
+          "\u0120ne ed",
+          "\u0120c l",
+          "\u0120s ub",
+          "\u0120l a",
+          "( (",
+          ". \"",
+          "O bject",
+          "\u0120st art",
+          "f ile",
+          "( self",
+          "n er",
+          "e y",
+          "\u0120us er",
+          "\u0120 ent",
+          "\u0120C om",
+          "it s",
+          "\u0120C on",
+          "ou ble",
+          "ow er",
+          "it em",
+          "ver y",
+          "\u0120W e",
+          "lic k",
+          "\u0120 Q",
+          "ph p",
+          "t tp",
+          "' :",
+          "ic s",
+          "\u0120u nder",
+          ". L",
+          ") ;",
+          "ic es",
+          "\u0120re g",
+          "\u0109 public",
+          "S S",
+          "\u0120th en",
+          "re at",
+          "i ous",
+          ". G",
+          "e k",
+          "ire ct",
+          "he ck",
+          "cri pt",
+          "n ing",
+          "\u0120U n",
+          "\u0120m ay",
+          "\u0120W h",
+          "B o",
+          "I tem",
+          "str uct",
+          ". st",
+          "re am",
+          "ib le",
+          "lo at",
+          "\u0120or g",
+          "u nd",
+          "s um",
+          "_ in",
+          ".. /",
+          "_ M",
+          "\u0120h ow",
+          "r ite",
+          "T o",
+          "w w",
+          "\u0120pe ople",
+          "ind ex",
+          ". n",
+          "ht tp",
+          "( m",
+          "ect or",
+          "\u0120in d",
+          "\u0120j av",
+          "\u0120H e",
+          "_ st",
+          "f ul",
+          "o le",
+          "\u0120sh ould",
+          "op y",
+          "el p",
+          "i er",
+          "_ name",
+          "ers on",
+          "I ON",
+          "ot e",
+          "\u0120t est",
+          "\u0120b et",
+          "rr or",
+          "ul ar",
+          "\u00e3 \u0122",
+          "\u0120 \u00d0",
+          "b s",
+          "t ing",
+          "\u0120m ake",
+          "T r",
+          "\u0120a fter",
+          "ar get",
+          "R O",
+          "olum n",
+          "r c",
+          "_ re",
+          "def ine",
+          "\u0120r ight",
+          "r ight",
+          "d ay",
+          "\u0120l ong",
+          "[ ]",
+          "( p",
+          "t d",
+          "con d",
+          "\u0120P ro",
+          "\u0120re m",
+          "ption s",
+          "v id",
+          ". g",
+          "\u0120 ext",
+          "\u0120 __",
+          "p ace",
+          "m p",
+          "\u0120m in",
+          "st ance",
+          "a ir",
+          "a ction",
+          "w h",
+          "t ype",
+          "ut il",
+          "a it",
+          "< ?",
+          "I C",
+          "t ext",
+          "\u0120p h",
+          "\u0120f l",
+          ". M",
+          "cc ess",
+          "b r",
+          "f ore",
+          "ers ion"
+        ],
+        "tokenizer.ggml.eos_token_id": 248046,
+        "tokenizer.ggml.padding_token_id": 248055,
+        "tokenizer.chat_template": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '\\n\\n' + content }}\n        {%- endif %}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {{- '<|im_start|>system\\n' + content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if ns.multi_step_tool %}\n    {{- raise_exception('No user query found in messages.') }}\n{%- endif %}\n{%- for message in messages %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"system\" %}\n        {%- if not loop.first %}\n            {{- raise_exception('System message must be at the beginning.') }}\n        {%- endif %}\n    {%- elif message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in content %}\n                {%- set reasoning_content = content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n                {%- set content = content.split('</think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is mapping %}\n                    {%- for args_name in tool_call.arguments %}\n                        {%- set args_value = tool_call.arguments[args_name] %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | tojson | safe if args_value is mapping or (args_value is sequence and args_value is not string) else args_value | string %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- else %}\n        {{- raise_exception('Unexpected message role.') }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is true %}\n        {{- '<think>\\n' }}\n    {%- else %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- endif %}\n{%- endif %}",
+        "general.quantization_version": 2,
+        "general.file_type": 15,
+        "quantize.imatrix.file": "Qwen3.5-9B-GGUF/imatrix_unsloth.gguf",
+        "quantize.imatrix.dataset": "unsloth_calibration_Qwen3.5-9B.txt",
+        "quantize.imatrix.entries_count": 248,
+        "quantize.imatrix.chunks_count": 80
+      },
+      "tensors": [
+        {
+          "name": "output.weight",
+          "type": 14,
+          "dims": [
+            4096,
+            248320
+          ]
+        },
+        {
+          "name": "output_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "token_embd.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            248320
+          ]
+        },
+        {
+          "name": "blk.0.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.0.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.0.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.0.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.0.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.0.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.0.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.0.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.0.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.0.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.0.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.0.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.0.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.0.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.1.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.1.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.1.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.1.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.1.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.1.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.1.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.1.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.1.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.1.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.1.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.1.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.1.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.1.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.2.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.2.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.2.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.2.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.2.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.2.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.2.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.2.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.2.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.2.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.2.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.2.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.2.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.2.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.3.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.3.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.3.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.3.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.3.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.3.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.3.attn_v.weight",
+          "type": 14,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.3.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.3.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.3.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.3.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.4.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.4.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.4.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.4.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.4.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.4.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.4.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.4.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.4.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.4.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.4.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.4.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.4.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.4.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.5.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.5.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.5.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.5.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.5.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.5.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.5.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.5.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.5.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.5.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.5.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.5.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.5.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.5.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.6.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.6.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.6.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.6.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.6.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.6.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.6.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.6.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.6.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.6.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.6.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.6.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.6.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.6.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.7.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.7.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.7.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.7.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.7.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.7.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.7.attn_v.weight",
+          "type": 14,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.7.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.7.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.7.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.7.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.8.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.8.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.8.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.8.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.8.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.8.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.8.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.8.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.8.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.8.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.8.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.8.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.8.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.8.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.9.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.9.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.9.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.9.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.9.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.9.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.9.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.9.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.9.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.9.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.9.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.9.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.9.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.9.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.10.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.10.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.10.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.10.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.10.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.10.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.10.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.10.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.10.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.10.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.10.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.10.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.10.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.10.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.11.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.11.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.11.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.11.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.11.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.11.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.11.attn_v.weight",
+          "type": 14,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.11.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.11.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.11.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.11.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.12.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.12.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.12.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.12.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.12.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.12.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.12.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.12.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.12.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.12.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.12.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.12.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.12.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.12.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.13.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.13.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.13.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.13.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.13.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.13.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.13.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.13.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.13.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.13.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.13.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.13.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.13.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.13.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.14.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.14.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.14.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.14.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.14.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.14.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.14.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.14.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.14.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.14.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.14.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.14.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.14.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.14.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.15.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.15.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.15.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.15.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.15.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.15.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.15.attn_v.weight",
+          "type": 14,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.15.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.15.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.15.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.15.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.16.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.16.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.16.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.16.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.16.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.16.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.16.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.16.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.16.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.16.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.16.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.16.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.16.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.16.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.17.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.17.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.17.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.17.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.17.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.17.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.17.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.17.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.17.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.17.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.17.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.17.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.17.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.17.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.18.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.18.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.18.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.18.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.18.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.18.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.18.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.18.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.18.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.18.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.18.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.18.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.18.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.18.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.19.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.19.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.19.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.19.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.19.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.19.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.19.attn_v.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.19.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.19.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.19.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.19.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.20.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.20.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.20.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.20.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.20.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.20.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.20.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.20.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.20.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.20.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.20.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.20.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.20.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.20.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.21.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.21.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.21.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.21.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.21.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.21.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.21.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.21.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.21.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.21.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.21.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.21.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.21.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.21.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.22.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.22.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.22.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.22.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.22.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.22.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.22.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.22.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.22.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.22.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.22.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.22.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.22.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.22.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.23.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.23.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.23.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.23.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.23.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.23.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.23.attn_v.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.23.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.23.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.23.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.23.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.24.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.24.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.24.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.24.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.24.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.24.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.24.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.24.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.24.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.24.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.24.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.24.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.24.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.24.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.25.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.25.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.25.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.25.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.25.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.25.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.25.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.25.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.25.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.25.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.25.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.25.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.25.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.25.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.26.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.26.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.26.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.26.ffn_down.weight",
+          "type": 12,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.26.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.26.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.26.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.26.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.26.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.26.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.26.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.26.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.26.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.26.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.27.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.27.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.27.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.27.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.27.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.27.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.27.attn_v.weight",
+          "type": 14,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.27.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.27.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.27.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.27.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.28.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.28.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.28.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.28.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.28.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.28.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.28.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.28.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.28.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.28.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.28.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.28.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.28.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.28.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.29.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.29.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.29.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.29.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.29.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.29.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.29.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.29.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.29.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.29.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.29.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.29.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.29.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.29.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.30.attn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.30.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.30.attn_qkv.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.30.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.30.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.30.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.30.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.30.ssm_a",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.30.ssm_alpha.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.30.ssm_beta.weight",
+          "type": 8,
+          "dims": [
+            4096,
+            32
+          ]
+        },
+        {
+          "name": "blk.30.ssm_conv1d.weight",
+          "type": 0,
+          "dims": [
+            4,
+            8192
+          ]
+        },
+        {
+          "name": "blk.30.ssm_dt.bias",
+          "type": 0,
+          "dims": [
+            32
+          ]
+        },
+        {
+          "name": "blk.30.ssm_norm.weight",
+          "type": 0,
+          "dims": [
+            128
+          ]
+        },
+        {
+          "name": "blk.30.ssm_out.weight",
+          "type": 13,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.31.attn_k.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.31.attn_k_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.31.attn_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        },
+        {
+          "name": "blk.31.attn_output.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "blk.31.attn_q.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            8192
+          ]
+        },
+        {
+          "name": "blk.31.attn_q_norm.weight",
+          "type": 0,
+          "dims": [
+            256
+          ]
+        },
+        {
+          "name": "blk.31.attn_v.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            1024
+          ]
+        },
+        {
+          "name": "blk.31.ffn_down.weight",
+          "type": 14,
+          "dims": [
+            12288,
+            4096
+          ]
+        },
+        {
+          "name": "blk.31.ffn_gate.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.31.ffn_up.weight",
+          "type": 12,
+          "dims": [
+            4096,
+            12288
+          ]
+        },
+        {
+          "name": "blk.31.post_attention_norm.weight",
+          "type": 0,
+          "dims": [
+            4096
+          ]
+        }
+      ],
+      "tensor_count_reported": 427
+    }
+  },
+  "content_hash": "6b097bd5d34dccca2f76e7676bf97bb3928a8bf9a5b4a479ab2f25680704dac0",
+  "start_time": 1792649808.9476097,
+  "duration": 13.606029510498047,
+  "total_checks": 5,
+  "passed_checks": 5,
+  "failed_checks": 0,
+  "success": true
+}

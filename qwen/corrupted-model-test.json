@@ -1,0 +1,130 @@
+{
+  "bytes_scanned": 1048576,
+  "issues": [
+    {
+      "message": "GGUF metadata parse error: Unexpected end of file while reading string",
+      "severity": "info",
+      "location": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "details": {
+        "error": "Unexpected end of file while reading string",
+        "error_type": "ValueError"
+      },
+      "timestamp": 1792650125.397031,
+      "type": "gguf_check",
+      "rule_code": "S902"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Path Exists",
+      "status": "passed",
+      "message": "Path exists",
+      "location": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-fixtures/truncated-qwen.gguf"
+      },
+      "timestamp": 1792650125.3677404
+    },
+    {
+      "name": "Path Readable",
+      "status": "passed",
+      "message": "Path is readable",
+      "location": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-fixtures/truncated-qwen.gguf"
+      },
+      "timestamp": 1792650125.3677533
+    },
+    {
+      "name": "File Type Validation",
+      "status": "passed",
+      "message": "File type validation passed",
+      "location": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "details": {},
+      "timestamp": 1792650125.367763
+    },
+    {
+      "name": "File Integrity Hash",
+      "status": "passed",
+      "message": "File integrity hashes calculated",
+      "location": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "details": {
+        "md5": "e0c5bbeeea976e4297b4191663ae35b9",
+        "sha256": "2c2d40dff6a285f6e38de725a562edfe9c9be29ae34f887f045d8a124c8955b7",
+        "sha512": "a0b826656beb78d10a9d141986c137dc60e2d0cb29d1561787684b09dab2350dda81864dbef210dbed7509a6d039d31478cac6f15c4e0e361109d75c63883515",
+        "file_size": 1048576
+      },
+      "timestamp": 1792650125.3702695
+    },
+    {
+      "name": "GGUF Metadata Parsing",
+      "status": "failed",
+      "message": "GGUF metadata parse error: Unexpected end of file while reading string",
+      "severity": "info",
+      "location": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "details": {
+        "error": "Unexpected end of file while reading string",
+        "error_type": "ValueError"
+      },
+      "rule_code": "S902",
+      "timestamp": 1792650125.3970065
+    }
+  ],
+  "files_scanned": 1,
+  "assets": [
+    {
+      "path": "/home/user/modelaudit-fixtures/truncated-qwen.gguf",
+      "type": "gguf",
+      "size": 1048576
+    }
+  ],
+  "has_errors": false,
+  "scanner_names": [
+    "gguf"
+  ],
+  "file_metadata": {
+    "/home/user/modelaudit-fixtures/truncated-qwen.gguf": {
+      "file_size": 1048576,
+      "file_hashes": {
+        "md5": "e0c5bbeeea976e4297b4191663ae35b9",
+        "sha256": "2c2d40dff6a285f6e38de725a562edfe9c9be29ae34f887f045d8a124c8955b7",
+        "sha512": "a0b826656beb78d10a9d141986c137dc60e2d0cb29d1561787684b09dab2350dda81864dbef210dbed7509a6d039d31478cac6f15c4e0e361109d75c63883515"
+      },
+      "member_file_hashes": {},
+      "license_info": [
+        {
+          "spdx_id": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "confidence": 0.8,
+          "source": "file_header",
+          "commercial_allowed": true
+        }
+      ],
+      "copyright_notices": [],
+      "license_files_nearby": [],
+      "is_dataset": false,
+      "is_model": false,
+      "risk_score": 0.0,
+      "scan_timestamp": 1792650125.41812,
+      "scanner_dependency_ids": [
+        "gguf"
+      ],
+      "format": "gguf",
+      "version": 3,
+      "n_tensors": 427,
+      "n_kv": 46,
+      "analysis_incomplete": true,
+      "scan_outcome": "inconclusive",
+      "scan_outcome_reasons": [
+        "gguf_parse_incomplete"
+      ]
+    }
+  },
+  "content_hash": "226eff7e640f33303766f546a49d234b8a5c4dfc369010012dd1a50fba15a9d5",
+  "start_time": 1792650125.3493996,
+  "duration": 0.08049893379211426,
+  "total_checks": 4,
+  "passed_checks": 4,
+  "failed_checks": 0,
+  "success": false
+}

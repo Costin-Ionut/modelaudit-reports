@@ -1,0 +1,130 @@
+{
+  "bytes_scanned": 1048576,
+  "issues": [
+    {
+      "message": "GGUF metadata parse error: Unexpected end of file while reading string",
+      "severity": "info",
+      "location": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "details": {
+        "error": "Unexpected end of file while reading string",
+        "error_type": "ValueError"
+      },
+      "timestamp": 1792651165.6082492,
+      "type": "gguf_check",
+      "rule_code": "S902"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Path Exists",
+      "status": "passed",
+      "message": "Path exists",
+      "location": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf"
+      },
+      "timestamp": 1792651165.5788016
+    },
+    {
+      "name": "Path Readable",
+      "status": "passed",
+      "message": "Path is readable",
+      "location": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf"
+      },
+      "timestamp": 1792651165.5788112
+    },
+    {
+      "name": "File Type Validation",
+      "status": "passed",
+      "message": "File type validation passed",
+      "location": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "details": {},
+      "timestamp": 1792651165.5789204
+    },
+    {
+      "name": "File Integrity Hash",
+      "status": "passed",
+      "message": "File integrity hashes calculated",
+      "location": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "details": {
+        "md5": "85c682f8912f267001b0779876cf6b07",
+        "sha256": "0bd4391009d286d6ec4f9742cc57c4a4519d6a68ad991ca29fa7704e10a7d488",
+        "sha512": "82d13e94e8df95f29889169dbaa9ef8fbbefd88a461b5ecf74986171120d69e6f3e4a21a92adcc2009dcce0f8e86a26d6f351c664d3c5b6162eef893eaa16894",
+        "file_size": 1048576
+      },
+      "timestamp": 1792651165.5814495
+    },
+    {
+      "name": "GGUF Metadata Parsing",
+      "status": "failed",
+      "message": "GGUF metadata parse error: Unexpected end of file while reading string",
+      "severity": "info",
+      "location": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "details": {
+        "error": "Unexpected end of file while reading string",
+        "error_type": "ValueError"
+      },
+      "rule_code": "S902",
+      "timestamp": 1792651165.608236
+    }
+  ],
+  "files_scanned": 1,
+  "assets": [
+    {
+      "path": "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf",
+      "type": "gguf",
+      "size": 1048576
+    }
+  ],
+  "has_errors": false,
+  "scanner_names": [
+    "gguf"
+  ],
+  "file_metadata": {
+    "/home/user/modelaudit-fixtures/granite/truncated-granite.gguf": {
+      "file_size": 1048576,
+      "file_hashes": {
+        "md5": "85c682f8912f267001b0779876cf6b07",
+        "sha256": "0bd4391009d286d6ec4f9742cc57c4a4519d6a68ad991ca29fa7704e10a7d488",
+        "sha512": "82d13e94e8df95f29889169dbaa9ef8fbbefd88a461b5ecf74986171120d69e6f3e4a21a92adcc2009dcce0f8e86a26d6f351c664d3c5b6162eef893eaa16894"
+      },
+      "member_file_hashes": {},
+      "license_info": [
+        {
+          "spdx_id": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "confidence": 0.8,
+          "source": "file_header",
+          "commercial_allowed": true
+        }
+      ],
+      "copyright_notices": [],
+      "license_files_nearby": [],
+      "is_dataset": false,
+      "is_model": false,
+      "risk_score": 0.0,
+      "scan_timestamp": 1792651165.6277163,
+      "scanner_dependency_ids": [
+        "gguf"
+      ],
+      "format": "gguf",
+      "version": 3,
+      "n_tensors": 363,
+      "n_kv": 41,
+      "analysis_incomplete": true,
+      "scan_outcome": "inconclusive",
+      "scan_outcome_reasons": [
+        "gguf_parse_incomplete"
+      ]
+    }
+  },
+  "content_hash": "0830135813db39611f37165d2b3dba8909370b2551818fe5aaa4fe1ba713b18e",
+  "start_time": 1792651165.560963,
+  "duration": 0.08242368698120117,
+  "total_checks": 4,
+  "passed_checks": 4,
+  "failed_checks": 0,
+  "success": false
+}

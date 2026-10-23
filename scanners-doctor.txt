@@ -1,0 +1,57 @@
+ModelAudit Scanner Diagnostic Report
+========================================
+Python version: 3.12.3
+NumPy status: NumPy 2.5.4 detected. Some ML frameworks may require NumPy < 2.0 for compatibility.
+
+Total scanners: 45
+Loaded successfully: 45
+Failed to load: 0
+
+Available Scanners:
+  ✅ catboost
+  ✅ cntk
+  ✅ compressed
+  ✅ coreml
+  ✅ executorch
+  ✅ flax_msgpack
+  ✅ gguf
+  ✅ jax_checkpoint
+  ✅ jinja2_template
+  ✅ joblib
+  ✅ keras_h5
+  ✅ keras_zip
+  ✅ lightgbm
+  ✅ llamafile
+  ✅ manifest
+  ✅ metadata
+  ✅ mxnet
+  ✅ nemo
+  ✅ numpy
+  ✅ oci_layer
+  ✅ onnx
+  ✅ openvino
+  ✅ paddle
+  ✅ pickle
+  ✅ pmml
+  ✅ protobuf_model_candidate
+  ✅ pytorch_binary
+  ✅ pytorch_zip
+  ✅ r_serialized
+  ✅ rar
+  ✅ rknn
+  ✅ safetensors
+  ✅ sevenzip
+  ✅ skops
+  ✅ tar
+  ✅ tensorrt
+  ✅ text
+  ✅ tf_metagraph
+  ✅ tf_savedmodel
+  ✅ tflite
+  ✅ torch7
+  ✅ torchserve_mar
+  ✅ weight_distribution
+  ✅ xgboost
+  ✅ zip
+
+✓ All scanners loaded successfully!

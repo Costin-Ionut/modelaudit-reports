@@ -1,0 +1,123 @@
+{
+  "version": "0.2.54",
+  "platform": {
+    "os": "linux",
+    "release": "6.6.87.2-microsoft-standard-WSL2",
+    "arch": "x86_64",
+    "pythonVersion": "3.12.3",
+    "pythonExecutable": "/home/user/modelaudit-venv/bin/python",
+    "pythonRecursionLimit": 1000
+  },
+  "install": {
+    "location": "~/modelaudit-venv/lib/python3.12/site-packages",
+    "editable": false
+  },
+  "dependencies": {
+    "core": {
+      "click": "8.5.0",
+      "pyyaml": "6.0.3",
+      "requests": "2.34.2",
+      "platformdirs": "4.13.5"
+    },
+    "mlFrameworks": {
+      "numpy": "2.5.4",
+      "torch": "2.14.1",
+      "onnx": "1.23.2"
+    },
+    "serialization": {
+      "h5py": "3.16.0",
+      "safetensors": "0.8.0",
+      "msgpack": "1.2.3",
+      "joblib": "1.6.0"
+    },
+    "utilities": {
+      "huggingface_hub": "2.2.0",
+      "posthog": "7.75.0",
+      "jinja2": "3.1.6",
+      "py7zr": "1.1.4",
+      "xgboost": "3.4.1"
+    }
+  },
+  "env": {
+    "telemetryDisabled": false,
+    "noColor": false,
+    "ciEnvironment": false,
+    "jfrogConfigured": false,
+    "mlflowConfigured": false,
+    "httpProxy": null,
+    "httpsProxy": null,
+    "noProxy": null
+  },
+  "auth": {
+    "authenticated": false,
+    "authSource": null,
+    "delegatedFromPromptfoo": false
+  },
+  "scanners": {
+    "total": 45,
+    "available": 45,
+    "failed": 0,
+    "successRate": 100.0,
+    "availableList": [
+      "catboost",
+      "cntk",
+      "compressed",
+      "coreml",
+      "executorch",
+      "flax_msgpack",
+      "gguf",
+      "jax_checkpoint",
+      "jinja2_template",
+      "joblib",
+      "keras_h5",
+      "keras_zip",
+      "lightgbm",
+      "llamafile",
+      "manifest",
+      "metadata",
+      "mxnet",
+      "nemo",
+      "numpy",
+      "oci_layer",
+      "onnx",
+      "openvino",
+      "paddle",
+      "pickle",
+      "pmml",
+      "protobuf_model_candidate",
+      "pytorch_binary",
+      "pytorch_zip",
+      "r_serialized",
+      "rar",
+      "rknn",
+      "safetensors",
+      "sevenzip",
+      "skops",
+      "tar",
+      "tensorrt",
+      "text",
+      "tf_metagraph",
+      "tf_savedmodel",
+      "tflite",
+      "torch7",
+      "torchserve_mar",
+      "weight_distribution",
+      "xgboost",
+      "zip"
+    ]
+  },
+  "cache": {
+    "enabled": true,
+    "directory": "/home/user/.modelaudit/cache/scan_results",
+    "entries": 0,
+    "sizeMb": 0.0,
+    "hitRate": 0.0
+  },
+  "config": {
+    "sharedConfigPath": "/home/user/.config/promptfoo/promptfoo.yaml",
+    "sharedConfigExists": true,
+    "modelauditConfigPath": "/home/user/.modelaudit/user_config.json",
+    "modelauditConfigExists": false,
+    "userIdGenerated": true
+  }
+}

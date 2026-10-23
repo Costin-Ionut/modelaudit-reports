@@ -1,0 +1,130 @@
+{
+  "bytes_scanned": 1048576,
+  "issues": [
+    {
+      "message": "GGUF metadata parse error: unpack requires a buffer of 8 bytes",
+      "severity": "info",
+      "location": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "details": {
+        "error": "unpack requires a buffer of 8 bytes",
+        "error_type": "error"
+      },
+      "timestamp": 1792651166.740057,
+      "type": "gguf_check",
+      "rule_code": "S902"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Path Exists",
+      "status": "passed",
+      "message": "Path exists",
+      "location": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf"
+      },
+      "timestamp": 1792651166.7071784
+    },
+    {
+      "name": "Path Readable",
+      "status": "passed",
+      "message": "Path is readable",
+      "location": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "details": {
+        "path": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf"
+      },
+      "timestamp": 1792651166.7071896
+    },
+    {
+      "name": "File Type Validation",
+      "status": "passed",
+      "message": "File type validation passed",
+      "location": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "details": {},
+      "timestamp": 1792651166.7072003
+    },
+    {
+      "name": "File Integrity Hash",
+      "status": "passed",
+      "message": "File integrity hashes calculated",
+      "location": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "details": {
+        "md5": "29b86f89352ac71e703f6ad6c93c2d45",
+        "sha256": "792c8e5798454ab10de5e568fe7c0f31ecadc4fb39a90567c69cfa0759be1c5a",
+        "sha512": "1c12050af908684cb7e5fb0df9b963bb01d5f5a89d7d179bd48221bed98e225b24850f4bc0aabd81f92856522f2a7ad7df900e09efef3d80e518bb758949d967",
+        "file_size": 1048576
+      },
+      "timestamp": 1792651166.7097654
+    },
+    {
+      "name": "GGUF Metadata Parsing",
+      "status": "failed",
+      "message": "GGUF metadata parse error: unpack requires a buffer of 8 bytes",
+      "severity": "info",
+      "location": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "details": {
+        "error": "unpack requires a buffer of 8 bytes",
+        "error_type": "error"
+      },
+      "rule_code": "S902",
+      "timestamp": 1792651166.7400346
+    }
+  ],
+  "files_scanned": 1,
+  "assets": [
+    {
+      "path": "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf",
+      "type": "gguf",
+      "size": 1048576
+    }
+  ],
+  "has_errors": false,
+  "scanner_names": [
+    "gguf"
+  ],
+  "file_metadata": {
+    "/home/user/modelaudit-fixtures/gemma/truncated-gemma.gguf": {
+      "file_size": 1048576,
+      "file_hashes": {
+        "md5": "29b86f89352ac71e703f6ad6c93c2d45",
+        "sha256": "792c8e5798454ab10de5e568fe7c0f31ecadc4fb39a90567c69cfa0759be1c5a",
+        "sha512": "1c12050af908684cb7e5fb0df9b963bb01d5f5a89d7d179bd48221bed98e225b24850f4bc0aabd81f92856522f2a7ad7df900e09efef3d80e518bb758949d967"
+      },
+      "member_file_hashes": {},
+      "license_info": [
+        {
+          "spdx_id": "Apache-2.0",
+          "name": "Apache License 2.0",
+          "confidence": 0.8,
+          "source": "file_header",
+          "commercial_allowed": true
+        }
+      ],
+      "copyright_notices": [],
+      "license_files_nearby": [],
+      "is_dataset": false,
+      "is_model": false,
+      "risk_score": 0.0,
+      "scan_timestamp": 1792651166.7451768,
+      "scanner_dependency_ids": [
+        "gguf"
+      ],
+      "format": "gguf",
+      "version": 3,
+      "n_tensors": 720,
+      "n_kv": 56,
+      "analysis_incomplete": true,
+      "scan_outcome": "inconclusive",
+      "scan_outcome_reasons": [
+        "gguf_parse_incomplete"
+      ]
+    }
+  },
+  "content_hash": "a95b293e7a8aa754b81f6709b0fa94b956bae83ac701940fe8fcec8a6c44348e",
+  "start_time": 1792651166.6860073,
+  "duration": 0.06888389587402344,
+  "total_checks": 4,
+  "passed_checks": 4,
+  "failed_checks": 0,
+  "success": false
+}

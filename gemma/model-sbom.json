@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "bom-ref": "/home/user/modelaudit-data/gemma/MTP/README.md",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6a1da265f7e7db53db679701cfb791d87c1e0963c9a9881415bd121176cd8607"
+        }
+      ],
+      "name": "README.md",
+      "properties": [
+        {
+          "name": "risk_score",
+          "value": "5"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "2225"
+        }
+      ],
+      "type": "data"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/gemma/README.md",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d741f0752fcf433cc3960ae20c609dbb159c25ce269da3b004246e8fd34245a3"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "README.md",
+      "properties": [
+        {
+          "name": "risk_score",
+          "value": "10"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "28503"
+        }
+      ],
+      "type": "data"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/gemma/.cache/huggingface/trees/bfc15c382204943c3a8fff0c750b94ae2364d7a3.json",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2294893201dc9f35b110959f5879d44a724ae2da213cf521e10533c4f042bd24"
+        }
+      ],
+      "name": "bfc15c382204943c3a8fff0c750b94ae2364d7a3.json",
+      "properties": [
+        {
+          "name": "ml:is_dataset",
+          "value": "true"
+        },
+        {
+          "name": "risk_score",
+          "value": "0"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "9522"
+        }
+      ],
+      "type": "data"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/gemma/.cache/huggingface/.gitignore",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+        }
+      ],
+      "name": ".gitignore",
+      "properties": [
+        {
+          "name": "risk_score",
+          "value": "0"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "1"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "bom-ref": "/home/user/modelaudit-data/gemma/gemma-4-E4B-it-Q5_K_M.gguf",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a5d6e634db151368d2caa4270fd32ab604d96c2d1291950586989f46d8e17d36"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "gemma-4-E4B-it-Q5_K_M.gguf",
+      "properties": [
+        {
+          "name": "ml:confidence_score",
+          "value": "2"
+        },
+        {
+          "name": "risk_score",
+          "value": "0"
+        },
+        {
+          "name": "security:scanned",
+          "value": "true"
+        },
+        {
+          "name": "security:scanner",
+          "value": "ModelAudit"
+        },
+        {
+          "name": "security:scanner_version",
+          "value": "v0.2.54"
+        },
+        {
+          "name": "size",
+          "value": "5481798784"
+        }
+      ],
+      "type": "machine-learning-model"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "/home/user/modelaudit-data/gemma/.cache/huggingface/.gitignore"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/gemma/.cache/huggingface/trees/bfc15c382204943c3a8fff0c750b94ae2364d7a3.json"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/gemma/MTP/README.md"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/gemma/README.md"
+    },
+    {
+      "ref": "/home/user/modelaudit-data/gemma/gemma-4-E4B-it-Q5_K_M.gguf"
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-10-22T06:38:44.089086+00:00"
+  },
+  "serialNumber": "urn:uuid:ac9d66d4-1b85-47cf-839f-c8658bc6ca48",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6"
+}

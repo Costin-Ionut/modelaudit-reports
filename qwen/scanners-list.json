@@ -1,0 +1,520 @@
+{
+  "scanners": [
+    {
+      "id": "catboost",
+      "class": "CatBoostScanner",
+      "description": "Scans CatBoost .cbm model files for suspicious metadata indicators",
+      "extensions": [
+        ".cbm"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "cntk",
+      "class": "CntkScanner",
+      "description": "Scans CNTK .dnn/.cmf model artifacts",
+      "extensions": [
+        ".cmf",
+        ".dnn"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "compressed",
+      "class": "CompressedScanner",
+      "description": "Scans standalone compressed wrappers and routes inner payloads to existing scanners",
+      "extensions": [
+        ".bz2",
+        ".gz",
+        ".lz4",
+        ".xz",
+        ".zlib"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "coreml",
+      "class": "CoreMLScanner",
+      "description": "Scans CoreML .mlmodel files",
+      "extensions": [
+        ".mlmodel"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "executorch",
+      "class": "ExecuTorchScanner",
+      "description": "Scans ExecuTorch mobile archives",
+      "extensions": [
+        ".pte",
+        ".ptl"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "flax_msgpack",
+      "class": "FlaxMsgpackScanner",
+      "description": "Scans Flax/JAX msgpack checkpoint files with enhanced security analysis",
+      "extensions": [
+        ".flax",
+        ".jax",
+        ".msgpack",
+        ".orbax"
+      ],
+      "dependencies": [
+        "msgpack"
+      ]
+    },
+    {
+      "id": "gguf",
+      "class": "GgufScanner",
+      "description": "Validates GGUF/GGML model file headers, metadata, and tensor integrity",
+      "extensions": [
+        ".ggjt",
+        ".ggla",
+        ".ggmf",
+        ".ggml",
+        ".ggsa",
+        ".gguf"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jax_checkpoint",
+      "class": "JaxCheckpointScanner",
+      "description": "Scans JAX checkpoint files in various serialization formats",
+      "extensions": [
+        ".checkpoint",
+        ".ckpt",
+        ".json",
+        ".orbax-checkpoint",
+        ".pickle"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jinja2_template",
+      "class": "Jinja2TemplateScanner",
+      "description": "Scans for Jinja2 template injection vulnerabilities in ML models",
+      "extensions": [
+        ".gguf",
+        ".j2",
+        ".jinja",
+        ".json",
+        ".template",
+        ".yaml",
+        ".yml"
+      ],
+      "dependencies": [
+        "gguf",
+        "jinja2"
+      ]
+    },
+    {
+      "id": "joblib",
+      "class": "JoblibScanner",
+      "description": "Scans joblib files by decompressing and analyzing embedded pickle",
+      "extensions": [
+        ".joblib"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "keras_h5",
+      "class": "KerasH5Scanner",
+      "description": "Scans Keras H5 model files for suspicious layer configurations",
+      "extensions": [
+        ".h5",
+        ".hdf5",
+        ".keras"
+      ],
+      "dependencies": [
+        "h5py"
+      ]
+    },
+    {
+      "id": "keras_zip",
+      "class": "KerasZipScanner",
+      "description": "Scans ZIP-based Keras model files for suspicious configurations and Lambda layers",
+      "extensions": [
+        ".keras",
+        ".zip"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "lightgbm",
+      "class": "LightGBMScanner",
+      "description": "Scans native LightGBM model files",
+      "extensions": [
+        ".lgb",
+        ".lightgbm",
+        ".model",
+        ".txt"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "llamafile",
+      "class": "LlamafileScanner",
+      "description": "Scans Llamafile executable model artifacts",
+      "extensions": [
+        ".exe",
+        ".llamafile"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "manifest",
+      "class": "ManifestScanner",
+      "description": "Scans model manifest files for blacklisted names and terms",
+      "extensions": [
+        ".cfg",
+        ".config",
+        ".ini",
+        ".json",
+        ".manifest",
+        ".metadata",
+        ".model",
+        ".toml",
+        ".xml",
+        ".yaml",
+        ".yml"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "metadata",
+      "class": "MetadataScanner",
+      "description": "Scans model documentation files for security issues",
+      "extensions": [
+        ".markdown",
+        ".md",
+        ".rst",
+        ".txt",
+        ".yaml",
+        ".yml"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mxnet",
+      "class": "MXNetScanner",
+      "description": "Scans MXNet symbol/params model artifacts",
+      "extensions": [
+        ".json",
+        ".params"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nemo",
+      "class": "NemoScanner",
+      "description": "Scans NVIDIA NeMo model files for Hydra _target_ injection",
+      "extensions": [
+        ".nemo"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "numpy",
+      "class": "NumPyScanner",
+      "description": "Scans NumPy array files",
+      "extensions": [
+        ".npy"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oci_layer",
+      "class": "OciLayerScanner",
+      "description": "Scans OCI container layers",
+      "extensions": [
+        ".manifest"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "onnx",
+      "class": "OnnxScanner",
+      "description": "Scans ONNX model files",
+      "extensions": [
+        ".onnx"
+      ],
+      "dependencies": [
+        "onnx"
+      ]
+    },
+    {
+      "id": "openvino",
+      "class": "OpenVinoScanner",
+      "description": "Scans OpenVINO IR model files",
+      "extensions": [
+        ".xml"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "paddle",
+      "class": "PaddleScanner",
+      "description": "Scans PaddlePaddle model files",
+      "extensions": [
+        ".pdiparams",
+        ".pdmodel"
+      ],
+      "dependencies": [
+        "paddlepaddle"
+      ]
+    },
+    {
+      "id": "pickle",
+      "class": "PickleScanner",
+      "description": "Scans Python pickle files for suspicious code references",
+      "extensions": [
+        ".bin",
+        ".ckpt",
+        ".dill",
+        ".joblib",
+        ".pickle",
+        ".pkl",
+        ".pt",
+        ".pth"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pmml",
+      "class": "PmmlScanner",
+      "description": "Scans PMML model files",
+      "extensions": [
+        ".pmml"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "protobuf_model_candidate",
+      "class": "ProtobufModelCandidateScanner",
+      "description": "Tentatively analyzes bounded protobuf model candidates",
+      "extensions": [],
+      "dependencies": []
+    },
+    {
+      "id": "pytorch_binary",
+      "class": "PyTorchBinaryScanner",
+      "description": "Scans PyTorch binary files",
+      "extensions": [
+        ".bin"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pytorch_zip",
+      "class": "PyTorchZipScanner",
+      "description": "Scans PyTorch model files for suspicious code in embedded pickles",
+      "extensions": [
+        ".bin",
+        ".ckpt",
+        ".pkl",
+        ".pt",
+        ".pth"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "r_serialized",
+      "class": "RSerializedScanner",
+      "description": "Scans R serialized model files",
+      "extensions": [
+        ".rda",
+        ".rdata",
+        ".rds"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rar",
+      "class": "RarScanner",
+      "description": "Fails closed on RAR archives because RAR extraction is unsupported",
+      "extensions": [
+        ".rar"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rknn",
+      "class": "RknnScanner",
+      "description": "Scans Rockchip RKNN model files",
+      "extensions": [
+        ".rknn"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "safetensors",
+      "class": "SafeTensorsScanner",
+      "description": "Scans SafeTensors model files",
+      "extensions": [
+        ".safetensors"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "sevenzip",
+      "class": "SevenZipScanner",
+      "description": "Scans 7-Zip archive files",
+      "extensions": [
+        ".7z"
+      ],
+      "dependencies": [
+        "py7zr"
+      ]
+    },
+    {
+      "id": "skops",
+      "class": "SkopsScanner",
+      "description": "Scans skops files for CVE-2025-54412, CVE-2025-54413, CVE-2025-54886 vulnerabilities",
+      "extensions": [
+        ".skops",
+        ".zip"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tar",
+      "class": "TarScanner",
+      "description": "Scans TAR archive files and their contents recursively",
+      "extensions": [
+        ".tar",
+        ".tar.bz2",
+        ".tar.gz",
+        ".tar.xz",
+        ".tbz2",
+        ".tgz",
+        ".txz"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tensorrt",
+      "class": "TensorRTScanner",
+      "description": "Scans TensorRT engine files",
+      "extensions": [
+        ".engine",
+        ".plan",
+        ".trt"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "text",
+      "class": "TextScanner",
+      "description": "Scans ML-related text files",
+      "extensions": [
+        ".env",
+        ".markdown",
+        ".md",
+        ".rst",
+        ".txt"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tf_metagraph",
+      "class": "TensorFlowMetaGraphScanner",
+      "description": "Scans TensorFlow MetaGraph .meta files",
+      "extensions": [
+        ".meta"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tf_savedmodel",
+      "class": "TensorFlowSavedModelScanner",
+      "description": "Scans TensorFlow SavedModel for suspicious operations",
+      "extensions": [
+        ".pb"
+      ],
+      "dependencies": [
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "tflite",
+      "class": "TFLiteScanner",
+      "description": "Scans TensorFlow Lite model files",
+      "extensions": [
+        ".tflite"
+      ],
+      "dependencies": [
+        "tflite"
+      ]
+    },
+    {
+      "id": "torch7",
+      "class": "Torch7Scanner",
+      "description": "Scans legacy Torch7 serialized model files",
+      "extensions": [
+        ".net",
+        ".t7",
+        ".th"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "torchserve_mar",
+      "class": "TorchServeMarScanner",
+      "description": "Scans TorchServe .mar model archive files",
+      "extensions": [
+        ".mar"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "weight_distribution",
+      "class": "WeightDistributionScanner",
+      "description": "Analyzes weight distributions for anomalies",
+      "extensions": [
+        ".h5",
+        ".hdf5",
+        ".keras",
+        ".onnx",
+        ".pb",
+        ".pt",
+        ".pth"
+      ],
+      "dependencies": [
+        "h5py",
+        "onnx",
+        "safetensors",
+        "tensorflow",
+        "torch"
+      ]
+    },
+    {
+      "id": "xgboost",
+      "class": "XGBoostScanner",
+      "description": "Scans XGBoost model files for security vulnerabilities",
+      "extensions": [
+        ".bst",
+        ".json",
+        ".model",
+        ".ubj"
+      ],
+      "dependencies": [
+        "ubjson",
+        "xgboost"
+      ]
+    },
+    {
+      "id": "zip",
+      "class": "ZipScanner",
+      "description": "Scans ZIP archive files",
+      "extensions": [
+        ".mar",
+        ".npz",
+        ".zip"
+      ],
+      "dependencies": []
+    }
+  ]
+}
