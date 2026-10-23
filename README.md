@@ -31,6 +31,6 @@ Each model folder contains:
 | Granite-4.2-8B | Passed     | Detected             |
 | Gemma-4-E4B-it | Passed     | Detected             |
 
-**All three original GGUF models passed the security checks with no findings.** All three corrupted files were detected successfully.
+**All three original GGUF models passed the security checks.** All three corrupted files were detected successfully.
 
 The repository contains the generated reports and diagnostics, not the model weights or inference code.
